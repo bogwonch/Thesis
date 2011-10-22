@@ -1,9 +1,10 @@
-DATE       | WORK     | HOURS | COMMENT
-11-10-2011 | Research | 1     | Read 'English Shellcode' paper
-12-10-2011 | Research | 4     | Read 'Automatic Exploit Generation', 'Design of a Resourceable and Retargetable Binary Translator', 'Intel Virtualization Technology: Hardware support for efficient processor virtualization' and 'An Infromation theoretic model for steganography'.
-14-10-2011 | Research | 1     | Watched presentation on AEG, and studied PIP gadget headers.
-17-10-2011 | Research | 3     | Understanding 'Platform Independent Programs'
-18-10-2011 | Research | 1     | Downloading ARM7 X86 Mips architecture manuals.
-18-10-2011 | Research | 1     | Understanding 'Platform Independent Programs'.
-19-10-2011 | Research | 4     | Read 'A Taxonomy of Obfuscating Transformations' and finished rereading PIP paper.
-20-10-2011 | Research | 1     | Read 'Prisoners' Problem & the Subliminal Channel'.
+DATE       | WORK          | HOURS | COMMENT
+11-10-2011 | Research      | 1     | Read 'English Shellcode' paper
+12-10-2011 | Research      | 4     | Read 'Automatic Exploit Generation', 'Design of a Resourceable and Retargetable Binary Translator', 'Intel Virtualization Technology: Hardware support for efficient processor virtualization' and 'An Infromation theoretic model for steganography'.
+14-10-2011 | Research      | 1     | Watched presentation on AEG, and studied PIP gadget headers.
+17-10-2011 | Research      | 3     | Understanding 'Platform Independent Programs'
+18-10-2011 | Research      | 1     | Downloading ARM7 X86 Mips architecture manuals.
+18-10-2011 | Research      | 1     | Understanding 'Platform Independent Programs'.
+19-10-2011 | Research      | 4     | Read 'A Taxonomy of Obfuscating Transformations' and finished rereading PIP paper.
+20-10-2011 | Research      | 1     | Read 'Prisoners' Problem & the Subliminal Channel'.
+22-10-2011 | Documentation | 2     | Wrote initial draft of project proposal.
