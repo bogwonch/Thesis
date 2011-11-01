@@ -1,0 +1,67 @@
+# Literature Reviews
+
+## Dynamic Binary Translation and Optimization (Ebcioglu01)
+
+The aim of the paper is to describe a VLIW[^vliw] architecture that is compatible with an existing architecture (PowerPC in this case).  The new architecture, DAISY, can execute existing programs through the use of dynamic compilation.
+
+[^vliw]:VLIW (Very Long Instruction Word) is a CPU architecture designed such that it can take advantage of instruction level parallelism.
+
+Unlike the PIP aproach they design their architecture to be binary compatible (or at least with an architecture level VM) with PPC, rather than by relying on overlaps in the IS and platform specific behaviour.
+
+Again, self modifying code is an issue; but less so on the PPC arch.  They admit it'd be a pain on x86.
+
+
+## Binary Translation (Sites93)
+
+Paper describes various methods of translating programs from one architecture to another without using virtualization.  They discuss the various methods for translating between the VAX and OpenVMS architectures.
+
+They point out that certain things can make programs untranslatable namely: exception handling differences, undocumented features, and system specific behavior (VAX memory management or program-image formats).
+
+They do analysis on their programs.  They note on the MIPS architecture:
+
+> only 10 instructions account for about 85% of all code.
+
+This will probably be useful when trying to detect my PIPs from non-PIPs.  They also add that certain sequences of instructions are idiomatic on a given architecture: again this can probably be exploited for distinguishing PIPs.
+
+This seems to be more to do with the ∏-translation step of the original PIP paper, rather than the actual design of steganographic execution.  However it might be interesting with the dual problem: given a program $p$ for a machine $M_1$ such that $M_1(p) = b_1$ find $M_2$ and $b_2$ such that $M_2(p) = b_2$.
+
+## English Shellcode
+
+The paper describes a method of hiding shellcode such that it is hidden inside English text—making the detection of it harder.  They take advantage of grammar and NL techniques to obscure the code.
+
+Currently shellcode attacks can be spotted at compile time with linters (e.g. RATS.  See also AEG paper), and through an emulation layer, taint analysis, or by checking inputs against known shellcodes. 
+
+> User input or network traffic is considered suspicious when it is executable or anomalous
+
+This is *insanely* cool.  Hide a PIP gadget inside a buffer such that it looks like its holding some text.  Looks completely (well relatively) inoccuous but then you're executing it. 
+
+## Automatic Exploit Generation
+
+The AEG challenge: given a program find vulnerabilities and generate exploits automatically.  
+Managed to find two new zero-days.  Uses heuristics to rank potentially executable areas & to search them; to look first at HTTP get requests for example.
+
+Requires the source code (its a linter).  They have a nice video showing it working on a bug in `iwconfig` involving a `strcpy()` call.
+
+An extension/reworking of the LLVM projects KLEE symbolic execution engine.  Works better for this purpose but most exploits found usually benefit from a little hand tweaking first.
+
+Can prioritise search areas based on different statistics (i.e. if a programmer is known to make off-by-one errors they can prioritize buffer error searching).  Currently able to produce *return-to-stack* and *return-to-libc* attacks.
+
+### Return-to-stack attack
+Change the return address of a function so that we return to somewhere on the stack where our shellcode has been placed.
+
+### Return-to-libc
+Find a '`/bin/sh`' string in an executable (difficult!), then overwrite a return address to jump into an '`execve /bin/sh`' call.
+
+Both these attacks still need to hijack control flow though.  Neither attack describes how to do this, but once you have managed to get a shell it is effectively game over.
+
+Very cool, but not what I'm really trying to do.
+
+
+## Design of a Resourcable and Retargetable Binary Translator
+Automatic translation of executables from one format to another without the source code (and by the *NoWeb* guy!).  Essentially they do it by reverse engineering and decompiling before recompiling it.
+
+Only works well on EXE formats at the moment.  Uses an intermediate language, but it seems very early.  Small programs with negligable overhead.
+
+
+## An Information-Theoretic Model for Steganography
+
