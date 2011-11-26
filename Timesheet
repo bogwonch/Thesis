@@ -11,7 +11,8 @@ DATE       | WORK          | HOURS | COMMENT
 30-10-2011 | Research      | 2     | Read 'Binary Translation' and 'Dynamic Binary Translation and Optimization'
 30-10-2011 | Documentation | 3     | Writing up summaries so far
 31-10-2011 | Code          | 1     | Installing toolchains
-01-11-2011 | Research      | 2     | Finding simple ARM NOPS
+01-11-2011 | Code          | 2     | Finding simple ARM NOPS
 01-11-2011 | Research      | 4     | Reading Intel manuals
 01-11-2011 | Code          | 1     | Setting up Bertha for development
-
+12-11-2011 | Code          | 6     | Finding ARM Jumps, and nearly 180 million MIPS NOPS
+12-11-2011 | Code          | 4     | Starting on the x86 set
