@@ -1,0 +1,1256 @@
+       0:	02800000 	addeq	r0, r0, #0
+       4:	02811000 	addeq	r1, r1, #0
+       8:	02822000 	addeq	r2, r2, #0
+       c:	02833000 	addeq	r3, r3, #0
+      10:	02844000 	addeq	r4, r4, #0
+      14:	02855000 	addeq	r5, r5, #0
+      18:	02866000 	addeq	r6, r6, #0
+      1c:	02877000 	addeq	r7, r7, #0
+      20:	02888000 	addeq	r8, r8, #0
+      24:	02899000 	addeq	r9, r9, #0
+      28:	028aa000 	addeq	sl, sl, #0
+      2c:	028bb000 	addeq	fp, fp, #0
+      30:	028cc000 	addeq	ip, ip, #0
+      34:	028ee000 	addeq	lr, lr, #0
+      38:	12800000 	addne	r0, r0, #0
+      3c:	12811000 	addne	r1, r1, #0
+      40:	12822000 	addne	r2, r2, #0
+      44:	12833000 	addne	r3, r3, #0
+      48:	12844000 	addne	r4, r4, #0
+      4c:	12855000 	addne	r5, r5, #0
+      50:	12866000 	addne	r6, r6, #0
+      54:	12877000 	addne	r7, r7, #0
+      58:	12888000 	addne	r8, r8, #0
+      5c:	12899000 	addne	r9, r9, #0
+      60:	128aa000 	addne	sl, sl, #0
+      64:	128bb000 	addne	fp, fp, #0
+      68:	128cc000 	addne	ip, ip, #0
+      6c:	128ee000 	addne	lr, lr, #0
+      70:	22800000 	addcs	r0, r0, #0
+      74:	22811000 	addcs	r1, r1, #0
+      78:	22822000 	addcs	r2, r2, #0
+      7c:	22833000 	addcs	r3, r3, #0
+      80:	22844000 	addcs	r4, r4, #0
+      84:	22855000 	addcs	r5, r5, #0
+      88:	22866000 	addcs	r6, r6, #0
+      8c:	22877000 	addcs	r7, r7, #0
+      90:	22888000 	addcs	r8, r8, #0
+      94:	22899000 	addcs	r9, r9, #0
+      98:	228aa000 	addcs	sl, sl, #0
+      9c:	228bb000 	addcs	fp, fp, #0
+      a0:	228cc000 	addcs	ip, ip, #0
+      a4:	228ee000 	addcs	lr, lr, #0
+      a8:	32800000 	addcc	r0, r0, #0
+      ac:	32811000 	addcc	r1, r1, #0
+      b0:	32822000 	addcc	r2, r2, #0
+      b4:	32833000 	addcc	r3, r3, #0
+      b8:	32844000 	addcc	r4, r4, #0
+      bc:	32855000 	addcc	r5, r5, #0
+      c0:	32866000 	addcc	r6, r6, #0
+      c4:	32877000 	addcc	r7, r7, #0
+      c8:	32888000 	addcc	r8, r8, #0
+      cc:	32899000 	addcc	r9, r9, #0
+      d0:	328aa000 	addcc	sl, sl, #0
+      d4:	328bb000 	addcc	fp, fp, #0
+      d8:	328cc000 	addcc	ip, ip, #0
+      dc:	328ee000 	addcc	lr, lr, #0
+      e0:	42800000 	addmi	r0, r0, #0
+      e4:	42811000 	addmi	r1, r1, #0
+      e8:	42822000 	addmi	r2, r2, #0
+      ec:	42833000 	addmi	r3, r3, #0
+      f0:	42844000 	addmi	r4, r4, #0
+      f4:	42855000 	addmi	r5, r5, #0
+      f8:	42866000 	addmi	r6, r6, #0
+      fc:	42877000 	addmi	r7, r7, #0
+     100:	42888000 	addmi	r8, r8, #0
+     104:	42899000 	addmi	r9, r9, #0
+     108:	428aa000 	addmi	sl, sl, #0
+     10c:	428bb000 	addmi	fp, fp, #0
+     110:	428cc000 	addmi	ip, ip, #0
+     114:	428ee000 	addmi	lr, lr, #0
+     118:	52800000 	addpl	r0, r0, #0
+     11c:	52811000 	addpl	r1, r1, #0
+     120:	52822000 	addpl	r2, r2, #0
+     124:	52833000 	addpl	r3, r3, #0
+     128:	52844000 	addpl	r4, r4, #0
+     12c:	52855000 	addpl	r5, r5, #0
+     130:	52866000 	addpl	r6, r6, #0
+     134:	52877000 	addpl	r7, r7, #0
+     138:	52888000 	addpl	r8, r8, #0
+     13c:	52899000 	addpl	r9, r9, #0
+     140:	528aa000 	addpl	sl, sl, #0
+     144:	528bb000 	addpl	fp, fp, #0
+     148:	528cc000 	addpl	ip, ip, #0
+     14c:	528ee000 	addpl	lr, lr, #0
+     150:	62800000 	addvs	r0, r0, #0
+     154:	62811000 	addvs	r1, r1, #0
+     158:	62822000 	addvs	r2, r2, #0
+     15c:	62833000 	addvs	r3, r3, #0
+     160:	62844000 	addvs	r4, r4, #0
+     164:	62855000 	addvs	r5, r5, #0
+     168:	62866000 	addvs	r6, r6, #0
+     16c:	62877000 	addvs	r7, r7, #0
+     170:	62888000 	addvs	r8, r8, #0
+     174:	62899000 	addvs	r9, r9, #0
+     178:	628aa000 	addvs	sl, sl, #0
+     17c:	628bb000 	addvs	fp, fp, #0
+     180:	628cc000 	addvs	ip, ip, #0
+     184:	628ee000 	addvs	lr, lr, #0
+     188:	72800000 	addvc	r0, r0, #0
+     18c:	72811000 	addvc	r1, r1, #0
+     190:	72822000 	addvc	r2, r2, #0
+     194:	72833000 	addvc	r3, r3, #0
+     198:	72844000 	addvc	r4, r4, #0
+     19c:	72855000 	addvc	r5, r5, #0
+     1a0:	72866000 	addvc	r6, r6, #0
+     1a4:	72877000 	addvc	r7, r7, #0
+     1a8:	72888000 	addvc	r8, r8, #0
+     1ac:	72899000 	addvc	r9, r9, #0
+     1b0:	728aa000 	addvc	sl, sl, #0
+     1b4:	728bb000 	addvc	fp, fp, #0
+     1b8:	728cc000 	addvc	ip, ip, #0
+     1bc:	728ee000 	addvc	lr, lr, #0
+     1c0:	82800000 	addhi	r0, r0, #0
+     1c4:	82811000 	addhi	r1, r1, #0
+     1c8:	82822000 	addhi	r2, r2, #0
+     1cc:	82833000 	addhi	r3, r3, #0
+     1d0:	82844000 	addhi	r4, r4, #0
+     1d4:	82855000 	addhi	r5, r5, #0
+     1d8:	82866000 	addhi	r6, r6, #0
+     1dc:	82877000 	addhi	r7, r7, #0
+     1e0:	82888000 	addhi	r8, r8, #0
+     1e4:	82899000 	addhi	r9, r9, #0
+     1e8:	828aa000 	addhi	sl, sl, #0
+     1ec:	828bb000 	addhi	fp, fp, #0
+     1f0:	828cc000 	addhi	ip, ip, #0
+     1f4:	828ee000 	addhi	lr, lr, #0
+     1f8:	92800000 	addls	r0, r0, #0
+     1fc:	92811000 	addls	r1, r1, #0
+     200:	92822000 	addls	r2, r2, #0
+     204:	92833000 	addls	r3, r3, #0
+     208:	92844000 	addls	r4, r4, #0
+     20c:	92855000 	addls	r5, r5, #0
+     210:	92866000 	addls	r6, r6, #0
+     214:	92877000 	addls	r7, r7, #0
+     218:	92888000 	addls	r8, r8, #0
+     21c:	92899000 	addls	r9, r9, #0
+     220:	928aa000 	addls	sl, sl, #0
+     224:	928bb000 	addls	fp, fp, #0
+     228:	928cc000 	addls	ip, ip, #0
+     22c:	928ee000 	addls	lr, lr, #0
+     230:	a2800000 	addge	r0, r0, #0
+     234:	a2811000 	addge	r1, r1, #0
+     238:	a2822000 	addge	r2, r2, #0
+     23c:	a2833000 	addge	r3, r3, #0
+     240:	a2844000 	addge	r4, r4, #0
+     244:	a2855000 	addge	r5, r5, #0
+     248:	a2866000 	addge	r6, r6, #0
+     24c:	a2877000 	addge	r7, r7, #0
+     250:	a2888000 	addge	r8, r8, #0
+     254:	a2899000 	addge	r9, r9, #0
+     258:	a28aa000 	addge	sl, sl, #0
+     25c:	a28bb000 	addge	fp, fp, #0
+     260:	a28cc000 	addge	ip, ip, #0
+     264:	a28ee000 	addge	lr, lr, #0
+     268:	b2800000 	addlt	r0, r0, #0
+     26c:	b2811000 	addlt	r1, r1, #0
+     270:	b2822000 	addlt	r2, r2, #0
+     274:	b2833000 	addlt	r3, r3, #0
+     278:	b2844000 	addlt	r4, r4, #0
+     27c:	b2855000 	addlt	r5, r5, #0
+     280:	b2866000 	addlt	r6, r6, #0
+     284:	b2877000 	addlt	r7, r7, #0
+     288:	b2888000 	addlt	r8, r8, #0
+     28c:	b2899000 	addlt	r9, r9, #0
+     290:	b28aa000 	addlt	sl, sl, #0
+     294:	b28bb000 	addlt	fp, fp, #0
+     298:	b28cc000 	addlt	ip, ip, #0
+     29c:	b28ee000 	addlt	lr, lr, #0
+     2a0:	c2800000 	addgt	r0, r0, #0
+     2a4:	c2811000 	addgt	r1, r1, #0
+     2a8:	c2822000 	addgt	r2, r2, #0
+     2ac:	c2833000 	addgt	r3, r3, #0
+     2b0:	c2844000 	addgt	r4, r4, #0
+     2b4:	c2855000 	addgt	r5, r5, #0
+     2b8:	c2866000 	addgt	r6, r6, #0
+     2bc:	c2877000 	addgt	r7, r7, #0
+     2c0:	c2888000 	addgt	r8, r8, #0
+     2c4:	c2899000 	addgt	r9, r9, #0
+     2c8:	c28aa000 	addgt	sl, sl, #0
+     2cc:	c28bb000 	addgt	fp, fp, #0
+     2d0:	c28cc000 	addgt	ip, ip, #0
+     2d4:	c28ee000 	addgt	lr, lr, #0
+     2d8:	d2800000 	addle	r0, r0, #0
+     2dc:	d2811000 	addle	r1, r1, #0
+     2e0:	d2822000 	addle	r2, r2, #0
+     2e4:	d2833000 	addle	r3, r3, #0
+     2e8:	d2844000 	addle	r4, r4, #0
+     2ec:	d2855000 	addle	r5, r5, #0
+     2f0:	d2866000 	addle	r6, r6, #0
+     2f4:	d2877000 	addle	r7, r7, #0
+     2f8:	d2888000 	addle	r8, r8, #0
+     2fc:	d2899000 	addle	r9, r9, #0
+     300:	d28aa000 	addle	sl, sl, #0
+     304:	d28bb000 	addle	fp, fp, #0
+     308:	d28cc000 	addle	ip, ip, #0
+     30c:	d28ee000 	addle	lr, lr, #0
+     310:	e2800000 	add	r0, r0, #0
+     314:	e2811000 	add	r1, r1, #0
+     318:	e2822000 	add	r2, r2, #0
+     31c:	e2833000 	add	r3, r3, #0
+     320:	e2844000 	add	r4, r4, #0
+     324:	e2855000 	add	r5, r5, #0
+     328:	e2866000 	add	r6, r6, #0
+     32c:	e2877000 	add	r7, r7, #0
+     330:	e2888000 	add	r8, r8, #0
+     334:	e2899000 	add	r9, r9, #0
+     338:	e28aa000 	add	sl, sl, #0
+     33c:	e28bb000 	add	fp, fp, #0
+     340:	e28cc000 	add	ip, ip, #0
+     344:	e28ee000 	add	lr, lr, #0
+     348:	03c00000 	biceq	r0, r0, #0
+     34c:	03c11000 	biceq	r1, r1, #0
+     350:	03c22000 	biceq	r2, r2, #0
+     354:	03c33000 	biceq	r3, r3, #0
+     358:	03c44000 	biceq	r4, r4, #0
+     35c:	03c55000 	biceq	r5, r5, #0
+     360:	03c66000 	biceq	r6, r6, #0
+     364:	03c77000 	biceq	r7, r7, #0
+     368:	03c88000 	biceq	r8, r8, #0
+     36c:	03c99000 	biceq	r9, r9, #0
+     370:	03caa000 	biceq	sl, sl, #0
+     374:	03cbb000 	biceq	fp, fp, #0
+     378:	03ccc000 	biceq	ip, ip, #0
+     37c:	03cdd000 	biceq	sp, sp, #0
+     380:	03cee000 	biceq	lr, lr, #0
+     384:	03cff000 	biceq	pc, pc, #0
+     388:	13c00000 	bicne	r0, r0, #0
+     38c:	13c11000 	bicne	r1, r1, #0
+     390:	13c22000 	bicne	r2, r2, #0
+     394:	13c33000 	bicne	r3, r3, #0
+     398:	13c44000 	bicne	r4, r4, #0
+     39c:	13c55000 	bicne	r5, r5, #0
+     3a0:	13c66000 	bicne	r6, r6, #0
+     3a4:	13c77000 	bicne	r7, r7, #0
+     3a8:	13c88000 	bicne	r8, r8, #0
+     3ac:	13c99000 	bicne	r9, r9, #0
+     3b0:	13caa000 	bicne	sl, sl, #0
+     3b4:	13cbb000 	bicne	fp, fp, #0
+     3b8:	13ccc000 	bicne	ip, ip, #0
+     3bc:	13cdd000 	bicne	sp, sp, #0
+     3c0:	13cee000 	bicne	lr, lr, #0
+     3c4:	13cff000 	bicne	pc, pc, #0
+     3c8:	43c00000 	bicmi	r0, r0, #0
+     3cc:	43c11000 	bicmi	r1, r1, #0
+     3d0:	43c22000 	bicmi	r2, r2, #0
+     3d4:	43c33000 	bicmi	r3, r3, #0
+     3d8:	43c44000 	bicmi	r4, r4, #0
+     3dc:	43c55000 	bicmi	r5, r5, #0
+     3e0:	43c66000 	bicmi	r6, r6, #0
+     3e4:	43c77000 	bicmi	r7, r7, #0
+     3e8:	43c88000 	bicmi	r8, r8, #0
+     3ec:	43c99000 	bicmi	r9, r9, #0
+     3f0:	43caa000 	bicmi	sl, sl, #0
+     3f4:	43cbb000 	bicmi	fp, fp, #0
+     3f8:	43ccc000 	bicmi	ip, ip, #0
+     3fc:	43cdd000 	bicmi	sp, sp, #0
+     400:	43cee000 	bicmi	lr, lr, #0
+     404:	43cff000 	bicmi	pc, pc, #0
+     408:	53c00000 	bicpl	r0, r0, #0
+     40c:	53c11000 	bicpl	r1, r1, #0
+     410:	53c22000 	bicpl	r2, r2, #0
+     414:	53c33000 	bicpl	r3, r3, #0
+     418:	53c44000 	bicpl	r4, r4, #0
+     41c:	53c55000 	bicpl	r5, r5, #0
+     420:	53c66000 	bicpl	r6, r6, #0
+     424:	53c77000 	bicpl	r7, r7, #0
+     428:	53c88000 	bicpl	r8, r8, #0
+     42c:	53c99000 	bicpl	r9, r9, #0
+     430:	53caa000 	bicpl	sl, sl, #0
+     434:	53cbb000 	bicpl	fp, fp, #0
+     438:	53ccc000 	bicpl	ip, ip, #0
+     43c:	53cdd000 	bicpl	sp, sp, #0
+     440:	53cee000 	bicpl	lr, lr, #0
+     444:	53cff000 	bicpl	pc, pc, #0
+     448:	63c00000 	bicvs	r0, r0, #0
+     44c:	63c11000 	bicvs	r1, r1, #0
+     450:	63c22000 	bicvs	r2, r2, #0
+     454:	63c33000 	bicvs	r3, r3, #0
+     458:	63c44000 	bicvs	r4, r4, #0
+     45c:	63c55000 	bicvs	r5, r5, #0
+     460:	63c66000 	bicvs	r6, r6, #0
+     464:	63c77000 	bicvs	r7, r7, #0
+     468:	63c88000 	bicvs	r8, r8, #0
+     46c:	63c99000 	bicvs	r9, r9, #0
+     470:	63caa000 	bicvs	sl, sl, #0
+     474:	63cbb000 	bicvs	fp, fp, #0
+     478:	63ccc000 	bicvs	ip, ip, #0
+     47c:	63cdd000 	bicvs	sp, sp, #0
+     480:	63cee000 	bicvs	lr, lr, #0
+     484:	63cff000 	bicvs	pc, pc, #0
+     488:	73c00000 	bicvc	r0, r0, #0
+     48c:	73c11000 	bicvc	r1, r1, #0
+     490:	73c22000 	bicvc	r2, r2, #0
+     494:	73c33000 	bicvc	r3, r3, #0
+     498:	73c44000 	bicvc	r4, r4, #0
+     49c:	73c55000 	bicvc	r5, r5, #0
+     4a0:	73c66000 	bicvc	r6, r6, #0
+     4a4:	73c77000 	bicvc	r7, r7, #0
+     4a8:	73c88000 	bicvc	r8, r8, #0
+     4ac:	73c99000 	bicvc	r9, r9, #0
+     4b0:	73caa000 	bicvc	sl, sl, #0
+     4b4:	73cbb000 	bicvc	fp, fp, #0
+     4b8:	73ccc000 	bicvc	ip, ip, #0
+     4bc:	73cdd000 	bicvc	sp, sp, #0
+     4c0:	73cee000 	bicvc	lr, lr, #0
+     4c4:	73cff000 	bicvc	pc, pc, #0
+     4c8:	83c00000 	bichi	r0, r0, #0
+     4cc:	83c11000 	bichi	r1, r1, #0
+     4d0:	83c22000 	bichi	r2, r2, #0
+     4d4:	83c33000 	bichi	r3, r3, #0
+     4d8:	83c44000 	bichi	r4, r4, #0
+     4dc:	83c55000 	bichi	r5, r5, #0
+     4e0:	83c66000 	bichi	r6, r6, #0
+     4e4:	83c77000 	bichi	r7, r7, #0
+     4e8:	83c88000 	bichi	r8, r8, #0
+     4ec:	83c99000 	bichi	r9, r9, #0
+     4f0:	83caa000 	bichi	sl, sl, #0
+     4f4:	83cbb000 	bichi	fp, fp, #0
+     4f8:	83ccc000 	bichi	ip, ip, #0
+     4fc:	83cdd000 	bichi	sp, sp, #0
+     500:	83cee000 	bichi	lr, lr, #0
+     504:	83cff000 	bichi	pc, pc, #0
+     508:	93c00000 	bicls	r0, r0, #0
+     50c:	93c11000 	bicls	r1, r1, #0
+     510:	93c22000 	bicls	r2, r2, #0
+     514:	93c33000 	bicls	r3, r3, #0
+     518:	93c44000 	bicls	r4, r4, #0
+     51c:	93c55000 	bicls	r5, r5, #0
+     520:	93c66000 	bicls	r6, r6, #0
+     524:	93c77000 	bicls	r7, r7, #0
+     528:	93c88000 	bicls	r8, r8, #0
+     52c:	93c99000 	bicls	r9, r9, #0
+     530:	93caa000 	bicls	sl, sl, #0
+     534:	93cbb000 	bicls	fp, fp, #0
+     538:	93ccc000 	bicls	ip, ip, #0
+     53c:	93cdd000 	bicls	sp, sp, #0
+     540:	93cee000 	bicls	lr, lr, #0
+     544:	93cff000 	bicls	pc, pc, #0
+     548:	a3c00000 	bicge	r0, r0, #0
+     54c:	a3c11000 	bicge	r1, r1, #0
+     550:	a3c22000 	bicge	r2, r2, #0
+     554:	a3c33000 	bicge	r3, r3, #0
+     558:	a3c44000 	bicge	r4, r4, #0
+     55c:	a3c55000 	bicge	r5, r5, #0
+     560:	a3c66000 	bicge	r6, r6, #0
+     564:	a3c77000 	bicge	r7, r7, #0
+     568:	a3c88000 	bicge	r8, r8, #0
+     56c:	a3c99000 	bicge	r9, r9, #0
+     570:	a3caa000 	bicge	sl, sl, #0
+     574:	a3cbb000 	bicge	fp, fp, #0
+     578:	a3ccc000 	bicge	ip, ip, #0
+     57c:	a3cdd000 	bicge	sp, sp, #0
+     580:	a3cee000 	bicge	lr, lr, #0
+     584:	a3cff000 	bicge	pc, pc, #0
+     588:	c3c00000 	bicgt	r0, r0, #0
+     58c:	c3c11000 	bicgt	r1, r1, #0
+     590:	c3c22000 	bicgt	r2, r2, #0
+     594:	c3c33000 	bicgt	r3, r3, #0
+     598:	c3c44000 	bicgt	r4, r4, #0
+     59c:	c3c55000 	bicgt	r5, r5, #0
+     5a0:	c3c66000 	bicgt	r6, r6, #0
+     5a4:	c3c77000 	bicgt	r7, r7, #0
+     5a8:	c3c88000 	bicgt	r8, r8, #0
+     5ac:	c3c99000 	bicgt	r9, r9, #0
+     5b0:	c3caa000 	bicgt	sl, sl, #0
+     5b4:	c3cbb000 	bicgt	fp, fp, #0
+     5b8:	c3ccc000 	bicgt	ip, ip, #0
+     5bc:	c3cdd000 	bicgt	sp, sp, #0
+     5c0:	c3cee000 	bicgt	lr, lr, #0
+     5c4:	c3cff000 	bicgt	pc, pc, #0
+     5c8:	d3c00000 	bicle	r0, r0, #0
+     5cc:	d3c11000 	bicle	r1, r1, #0
+     5d0:	d3c22000 	bicle	r2, r2, #0
+     5d4:	d3c33000 	bicle	r3, r3, #0
+     5d8:	d3c44000 	bicle	r4, r4, #0
+     5dc:	d3c55000 	bicle	r5, r5, #0
+     5e0:	d3c66000 	bicle	r6, r6, #0
+     5e4:	d3c77000 	bicle	r7, r7, #0
+     5e8:	d3c88000 	bicle	r8, r8, #0
+     5ec:	d3c99000 	bicle	r9, r9, #0
+     5f0:	d3caa000 	bicle	sl, sl, #0
+     5f4:	d3cbb000 	bicle	fp, fp, #0
+     5f8:	d3ccc000 	bicle	ip, ip, #0
+     5fc:	d3cdd000 	bicle	sp, sp, #0
+     600:	d3cee000 	bicle	lr, lr, #0
+     604:	d3cff000 	bicle	pc, pc, #0
+     608:	b3c00000 	biclt	r0, r0, #0
+     60c:	b3c11000 	biclt	r1, r1, #0
+     610:	b3c22000 	biclt	r2, r2, #0
+     614:	b3c33000 	biclt	r3, r3, #0
+     618:	b3c44000 	biclt	r4, r4, #0
+     61c:	b3c55000 	biclt	r5, r5, #0
+     620:	b3c66000 	biclt	r6, r6, #0
+     624:	b3c77000 	biclt	r7, r7, #0
+     628:	b3c88000 	biclt	r8, r8, #0
+     62c:	b3c99000 	biclt	r9, r9, #0
+     630:	b3caa000 	biclt	sl, sl, #0
+     634:	b3cbb000 	biclt	fp, fp, #0
+     638:	b3ccc000 	biclt	ip, ip, #0
+     63c:	b3cdd000 	biclt	sp, sp, #0
+     640:	b3cee000 	biclt	lr, lr, #0
+     644:	b3cff000 	biclt	pc, pc, #0
+     648:	e3c00000 	bic	r0, r0, #0
+     64c:	e3c11000 	bic	r1, r1, #0
+     650:	e3c22000 	bic	r2, r2, #0
+     654:	e3c33000 	bic	r3, r3, #0
+     658:	e3c44000 	bic	r4, r4, #0
+     65c:	e3c55000 	bic	r5, r5, #0
+     660:	e3c66000 	bic	r6, r6, #0
+     664:	e3c77000 	bic	r7, r7, #0
+     668:	e3c88000 	bic	r8, r8, #0
+     66c:	e3c99000 	bic	r9, r9, #0
+     670:	e3caa000 	bic	sl, sl, #0
+     674:	e3cbb000 	bic	fp, fp, #0
+     678:	e3ccc000 	bic	ip, ip, #0
+     67c:	e3cdd000 	bic	sp, sp, #0
+     680:	e3cee000 	bic	lr, lr, #0
+     684:	e3cff000 	bic	pc, pc, #0
+     688:	02200000 	eoreq	r0, r0, #0
+     68c:	02211000 	eoreq	r1, r1, #0
+     690:	02222000 	eoreq	r2, r2, #0
+     694:	02233000 	eoreq	r3, r3, #0
+     698:	02244000 	eoreq	r4, r4, #0
+     69c:	02255000 	eoreq	r5, r5, #0
+     6a0:	02266000 	eoreq	r6, r6, #0
+     6a4:	02277000 	eoreq	r7, r7, #0
+     6a8:	02288000 	eoreq	r8, r8, #0
+     6ac:	02299000 	eoreq	r9, r9, #0
+     6b0:	022aa000 	eoreq	sl, sl, #0
+     6b4:	022bb000 	eoreq	fp, fp, #0
+     6b8:	022cc000 	eoreq	ip, ip, #0
+     6bc:	022ee000 	eoreq	lr, lr, #0
+     6c0:	12200000 	eorne	r0, r0, #0
+     6c4:	12211000 	eorne	r1, r1, #0
+     6c8:	12222000 	eorne	r2, r2, #0
+     6cc:	12233000 	eorne	r3, r3, #0
+     6d0:	12244000 	eorne	r4, r4, #0
+     6d4:	12255000 	eorne	r5, r5, #0
+     6d8:	12266000 	eorne	r6, r6, #0
+     6dc:	12277000 	eorne	r7, r7, #0
+     6e0:	12288000 	eorne	r8, r8, #0
+     6e4:	12299000 	eorne	r9, r9, #0
+     6e8:	122aa000 	eorne	sl, sl, #0
+     6ec:	122bb000 	eorne	fp, fp, #0
+     6f0:	122cc000 	eorne	ip, ip, #0
+     6f4:	122ee000 	eorne	lr, lr, #0
+     6f8:	22200000 	eorcs	r0, r0, #0
+     6fc:	22211000 	eorcs	r1, r1, #0
+     700:	22222000 	eorcs	r2, r2, #0
+     704:	22233000 	eorcs	r3, r3, #0
+     708:	22244000 	eorcs	r4, r4, #0
+     70c:	22255000 	eorcs	r5, r5, #0
+     710:	22266000 	eorcs	r6, r6, #0
+     714:	22277000 	eorcs	r7, r7, #0
+     718:	22288000 	eorcs	r8, r8, #0
+     71c:	22299000 	eorcs	r9, r9, #0
+     720:	222aa000 	eorcs	sl, sl, #0
+     724:	222bb000 	eorcs	fp, fp, #0
+     728:	222cc000 	eorcs	ip, ip, #0
+     72c:	222ee000 	eorcs	lr, lr, #0
+     730:	32200000 	eorcc	r0, r0, #0
+     734:	32211000 	eorcc	r1, r1, #0
+     738:	32222000 	eorcc	r2, r2, #0
+     73c:	32233000 	eorcc	r3, r3, #0
+     740:	32244000 	eorcc	r4, r4, #0
+     744:	32255000 	eorcc	r5, r5, #0
+     748:	32266000 	eorcc	r6, r6, #0
+     74c:	32277000 	eorcc	r7, r7, #0
+     750:	32288000 	eorcc	r8, r8, #0
+     754:	32299000 	eorcc	r9, r9, #0
+     758:	322aa000 	eorcc	sl, sl, #0
+     75c:	322bb000 	eorcc	fp, fp, #0
+     760:	322cc000 	eorcc	ip, ip, #0
+     764:	322ee000 	eorcc	lr, lr, #0
+     768:	42200000 	eormi	r0, r0, #0
+     76c:	42211000 	eormi	r1, r1, #0
+     770:	42222000 	eormi	r2, r2, #0
+     774:	42233000 	eormi	r3, r3, #0
+     778:	42244000 	eormi	r4, r4, #0
+     77c:	42255000 	eormi	r5, r5, #0
+     780:	42266000 	eormi	r6, r6, #0
+     784:	42277000 	eormi	r7, r7, #0
+     788:	42288000 	eormi	r8, r8, #0
+     78c:	42299000 	eormi	r9, r9, #0
+     790:	422aa000 	eormi	sl, sl, #0
+     794:	422bb000 	eormi	fp, fp, #0
+     798:	422cc000 	eormi	ip, ip, #0
+     79c:	422ee000 	eormi	lr, lr, #0
+     7a0:	52200000 	eorpl	r0, r0, #0
+     7a4:	52211000 	eorpl	r1, r1, #0
+     7a8:	52222000 	eorpl	r2, r2, #0
+     7ac:	52233000 	eorpl	r3, r3, #0
+     7b0:	52244000 	eorpl	r4, r4, #0
+     7b4:	52255000 	eorpl	r5, r5, #0
+     7b8:	52266000 	eorpl	r6, r6, #0
+     7bc:	52277000 	eorpl	r7, r7, #0
+     7c0:	52288000 	eorpl	r8, r8, #0
+     7c4:	52299000 	eorpl	r9, r9, #0
+     7c8:	522aa000 	eorpl	sl, sl, #0
+     7cc:	522bb000 	eorpl	fp, fp, #0
+     7d0:	522cc000 	eorpl	ip, ip, #0
+     7d4:	522ee000 	eorpl	lr, lr, #0
+     7d8:	62200000 	eorvs	r0, r0, #0
+     7dc:	62211000 	eorvs	r1, r1, #0
+     7e0:	62222000 	eorvs	r2, r2, #0
+     7e4:	62233000 	eorvs	r3, r3, #0
+     7e8:	62244000 	eorvs	r4, r4, #0
+     7ec:	62255000 	eorvs	r5, r5, #0
+     7f0:	62266000 	eorvs	r6, r6, #0
+     7f4:	62277000 	eorvs	r7, r7, #0
+     7f8:	62288000 	eorvs	r8, r8, #0
+     7fc:	62299000 	eorvs	r9, r9, #0
+     800:	622aa000 	eorvs	sl, sl, #0
+     804:	622bb000 	eorvs	fp, fp, #0
+     808:	622cc000 	eorvs	ip, ip, #0
+     80c:	622ee000 	eorvs	lr, lr, #0
+     810:	72200000 	eorvc	r0, r0, #0
+     814:	72211000 	eorvc	r1, r1, #0
+     818:	72222000 	eorvc	r2, r2, #0
+     81c:	72233000 	eorvc	r3, r3, #0
+     820:	72244000 	eorvc	r4, r4, #0
+     824:	72255000 	eorvc	r5, r5, #0
+     828:	72266000 	eorvc	r6, r6, #0
+     82c:	72277000 	eorvc	r7, r7, #0
+     830:	72288000 	eorvc	r8, r8, #0
+     834:	72299000 	eorvc	r9, r9, #0
+     838:	722aa000 	eorvc	sl, sl, #0
+     83c:	722bb000 	eorvc	fp, fp, #0
+     840:	722cc000 	eorvc	ip, ip, #0
+     844:	722ee000 	eorvc	lr, lr, #0
+     848:	82200000 	eorhi	r0, r0, #0
+     84c:	82211000 	eorhi	r1, r1, #0
+     850:	82222000 	eorhi	r2, r2, #0
+     854:	82233000 	eorhi	r3, r3, #0
+     858:	82244000 	eorhi	r4, r4, #0
+     85c:	82255000 	eorhi	r5, r5, #0
+     860:	82266000 	eorhi	r6, r6, #0
+     864:	82277000 	eorhi	r7, r7, #0
+     868:	82288000 	eorhi	r8, r8, #0
+     86c:	82299000 	eorhi	r9, r9, #0
+     870:	822aa000 	eorhi	sl, sl, #0
+     874:	822bb000 	eorhi	fp, fp, #0
+     878:	822cc000 	eorhi	ip, ip, #0
+     87c:	822ee000 	eorhi	lr, lr, #0
+     880:	92200000 	eorls	r0, r0, #0
+     884:	92211000 	eorls	r1, r1, #0
+     888:	92222000 	eorls	r2, r2, #0
+     88c:	92233000 	eorls	r3, r3, #0
+     890:	92244000 	eorls	r4, r4, #0
+     894:	92255000 	eorls	r5, r5, #0
+     898:	92266000 	eorls	r6, r6, #0
+     89c:	92277000 	eorls	r7, r7, #0
+     8a0:	92288000 	eorls	r8, r8, #0
+     8a4:	92299000 	eorls	r9, r9, #0
+     8a8:	922aa000 	eorls	sl, sl, #0
+     8ac:	922bb000 	eorls	fp, fp, #0
+     8b0:	922cc000 	eorls	ip, ip, #0
+     8b4:	922ee000 	eorls	lr, lr, #0
+     8b8:	a2200000 	eorge	r0, r0, #0
+     8bc:	a2211000 	eorge	r1, r1, #0
+     8c0:	a2222000 	eorge	r2, r2, #0
+     8c4:	a2233000 	eorge	r3, r3, #0
+     8c8:	a2244000 	eorge	r4, r4, #0
+     8cc:	a2255000 	eorge	r5, r5, #0
+     8d0:	a2266000 	eorge	r6, r6, #0
+     8d4:	a2277000 	eorge	r7, r7, #0
+     8d8:	a2288000 	eorge	r8, r8, #0
+     8dc:	a2299000 	eorge	r9, r9, #0
+     8e0:	a22aa000 	eorge	sl, sl, #0
+     8e4:	a22bb000 	eorge	fp, fp, #0
+     8e8:	a22cc000 	eorge	ip, ip, #0
+     8ec:	a22ee000 	eorge	lr, lr, #0
+     8f0:	b2200000 	eorlt	r0, r0, #0
+     8f4:	b2211000 	eorlt	r1, r1, #0
+     8f8:	b2222000 	eorlt	r2, r2, #0
+     8fc:	b2233000 	eorlt	r3, r3, #0
+     900:	b2244000 	eorlt	r4, r4, #0
+     904:	b2255000 	eorlt	r5, r5, #0
+     908:	b2266000 	eorlt	r6, r6, #0
+     90c:	b2277000 	eorlt	r7, r7, #0
+     910:	b2288000 	eorlt	r8, r8, #0
+     914:	b2299000 	eorlt	r9, r9, #0
+     918:	b22aa000 	eorlt	sl, sl, #0
+     91c:	b22bb000 	eorlt	fp, fp, #0
+     920:	b22cc000 	eorlt	ip, ip, #0
+     924:	b22ee000 	eorlt	lr, lr, #0
+     928:	c2200000 	eorgt	r0, r0, #0
+     92c:	c2211000 	eorgt	r1, r1, #0
+     930:	c2222000 	eorgt	r2, r2, #0
+     934:	c2233000 	eorgt	r3, r3, #0
+     938:	c2244000 	eorgt	r4, r4, #0
+     93c:	c2255000 	eorgt	r5, r5, #0
+     940:	c2266000 	eorgt	r6, r6, #0
+     944:	c2277000 	eorgt	r7, r7, #0
+     948:	c2288000 	eorgt	r8, r8, #0
+     94c:	c2299000 	eorgt	r9, r9, #0
+     950:	c22aa000 	eorgt	sl, sl, #0
+     954:	c22bb000 	eorgt	fp, fp, #0
+     958:	c22cc000 	eorgt	ip, ip, #0
+     95c:	c22ee000 	eorgt	lr, lr, #0
+     960:	d2200000 	eorle	r0, r0, #0
+     964:	d2211000 	eorle	r1, r1, #0
+     968:	d2222000 	eorle	r2, r2, #0
+     96c:	d2233000 	eorle	r3, r3, #0
+     970:	d2244000 	eorle	r4, r4, #0
+     974:	d2255000 	eorle	r5, r5, #0
+     978:	d2266000 	eorle	r6, r6, #0
+     97c:	d2277000 	eorle	r7, r7, #0
+     980:	d2288000 	eorle	r8, r8, #0
+     984:	d2299000 	eorle	r9, r9, #0
+     988:	d22aa000 	eorle	sl, sl, #0
+     98c:	d22bb000 	eorle	fp, fp, #0
+     990:	d22cc000 	eorle	ip, ip, #0
+     994:	d22ee000 	eorle	lr, lr, #0
+     998:	e2200000 	eor	r0, r0, #0
+     99c:	e2211000 	eor	r1, r1, #0
+     9a0:	e2222000 	eor	r2, r2, #0
+     9a4:	e2233000 	eor	r3, r3, #0
+     9a8:	e2244000 	eor	r4, r4, #0
+     9ac:	e2255000 	eor	r5, r5, #0
+     9b0:	e2266000 	eor	r6, r6, #0
+     9b4:	e2277000 	eor	r7, r7, #0
+     9b8:	e2288000 	eor	r8, r8, #0
+     9bc:	e2299000 	eor	r9, r9, #0
+     9c0:	e22aa000 	eor	sl, sl, #0
+     9c4:	e22bb000 	eor	fp, fp, #0
+     9c8:	e22cc000 	eor	ip, ip, #0
+     9cc:	e22ee000 	eor	lr, lr, #0
+     9d0:	01a00000 	moveq	r0, r0
+     9d4:	01a01001 	moveq	r1, r1
+     9d8:	01a02002 	moveq	r2, r2
+     9dc:	01a03003 	moveq	r3, r3
+     9e0:	01a04004 	moveq	r4, r4
+     9e4:	01a05005 	moveq	r5, r5
+     9e8:	01a06006 	moveq	r6, r6
+     9ec:	01a07007 	moveq	r7, r7
+     9f0:	01a08008 	moveq	r8, r8
+     9f4:	01a09009 	moveq	r9, r9
+     9f8:	01a0a00a 	moveq	sl, sl
+     9fc:	01a0b00b 	moveq	fp, fp
+     a00:	01a0c00c 	moveq	ip, ip
+     a04:	01a0e00e 	moveq	lr, lr
+     a08:	11a00000 	movne	r0, r0
+     a0c:	11a01001 	movne	r1, r1
+     a10:	11a02002 	movne	r2, r2
+     a14:	11a03003 	movne	r3, r3
+     a18:	11a04004 	movne	r4, r4
+     a1c:	11a05005 	movne	r5, r5
+     a20:	11a06006 	movne	r6, r6
+     a24:	11a07007 	movne	r7, r7
+     a28:	11a08008 	movne	r8, r8
+     a2c:	11a09009 	movne	r9, r9
+     a30:	11a0a00a 	movne	sl, sl
+     a34:	11a0b00b 	movne	fp, fp
+     a38:	11a0c00c 	movne	ip, ip
+     a3c:	11a0e00e 	movne	lr, lr
+     a40:	21a00000 	movcs	r0, r0
+     a44:	21a01001 	movcs	r1, r1
+     a48:	21a02002 	movcs	r2, r2
+     a4c:	21a03003 	movcs	r3, r3
+     a50:	21a04004 	movcs	r4, r4
+     a54:	21a05005 	movcs	r5, r5
+     a58:	21a06006 	movcs	r6, r6
+     a5c:	21a07007 	movcs	r7, r7
+     a60:	21a08008 	movcs	r8, r8
+     a64:	21a09009 	movcs	r9, r9
+     a68:	21a0a00a 	movcs	sl, sl
+     a6c:	21a0b00b 	movcs	fp, fp
+     a70:	21a0c00c 	movcs	ip, ip
+     a74:	21a0e00e 	movcs	lr, lr
+     a78:	31a00000 	movcc	r0, r0
+     a7c:	31a01001 	movcc	r1, r1
+     a80:	31a02002 	movcc	r2, r2
+     a84:	31a03003 	movcc	r3, r3
+     a88:	31a04004 	movcc	r4, r4
+     a8c:	31a05005 	movcc	r5, r5
+     a90:	31a06006 	movcc	r6, r6
+     a94:	31a07007 	movcc	r7, r7
+     a98:	31a08008 	movcc	r8, r8
+     a9c:	31a09009 	movcc	r9, r9
+     aa0:	31a0a00a 	movcc	sl, sl
+     aa4:	31a0b00b 	movcc	fp, fp
+     aa8:	31a0c00c 	movcc	ip, ip
+     aac:	31a0e00e 	movcc	lr, lr
+     ab0:	41a00000 	movmi	r0, r0
+     ab4:	41a01001 	movmi	r1, r1
+     ab8:	41a02002 	movmi	r2, r2
+     abc:	41a03003 	movmi	r3, r3
+     ac0:	41a04004 	movmi	r4, r4
+     ac4:	41a05005 	movmi	r5, r5
+     ac8:	41a06006 	movmi	r6, r6
+     acc:	41a07007 	movmi	r7, r7
+     ad0:	41a08008 	movmi	r8, r8
+     ad4:	41a09009 	movmi	r9, r9
+     ad8:	41a0a00a 	movmi	sl, sl
+     adc:	41a0b00b 	movmi	fp, fp
+     ae0:	41a0c00c 	movmi	ip, ip
+     ae4:	41a0e00e 	movmi	lr, lr
+     ae8:	51a00000 	movpl	r0, r0
+     aec:	51a01001 	movpl	r1, r1
+     af0:	51a02002 	movpl	r2, r2
+     af4:	51a03003 	movpl	r3, r3
+     af8:	51a04004 	movpl	r4, r4
+     afc:	51a05005 	movpl	r5, r5
+     b00:	51a06006 	movpl	r6, r6
+     b04:	51a07007 	movpl	r7, r7
+     b08:	51a08008 	movpl	r8, r8
+     b0c:	51a09009 	movpl	r9, r9
+     b10:	51a0a00a 	movpl	sl, sl
+     b14:	51a0b00b 	movpl	fp, fp
+     b18:	51a0c00c 	movpl	ip, ip
+     b1c:	51a0e00e 	movpl	lr, lr
+     b20:	61a00000 	movvs	r0, r0
+     b24:	61a01001 	movvs	r1, r1
+     b28:	61a02002 	movvs	r2, r2
+     b2c:	61a03003 	movvs	r3, r3
+     b30:	61a04004 	movvs	r4, r4
+     b34:	61a05005 	movvs	r5, r5
+     b38:	61a06006 	movvs	r6, r6
+     b3c:	61a07007 	movvs	r7, r7
+     b40:	61a08008 	movvs	r8, r8
+     b44:	61a09009 	movvs	r9, r9
+     b48:	61a0a00a 	movvs	sl, sl
+     b4c:	61a0b00b 	movvs	fp, fp
+     b50:	61a0c00c 	movvs	ip, ip
+     b54:	61a0e00e 	movvs	lr, lr
+     b58:	71a00000 	movvc	r0, r0
+     b5c:	71a01001 	movvc	r1, r1
+     b60:	71a02002 	movvc	r2, r2
+     b64:	71a03003 	movvc	r3, r3
+     b68:	71a04004 	movvc	r4, r4
+     b6c:	71a05005 	movvc	r5, r5
+     b70:	71a06006 	movvc	r6, r6
+     b74:	71a07007 	movvc	r7, r7
+     b78:	71a08008 	movvc	r8, r8
+     b7c:	71a09009 	movvc	r9, r9
+     b80:	71a0a00a 	movvc	sl, sl
+     b84:	71a0b00b 	movvc	fp, fp
+     b88:	71a0c00c 	movvc	ip, ip
+     b8c:	71a0e00e 	movvc	lr, lr
+     b90:	81a00000 	movhi	r0, r0
+     b94:	81a01001 	movhi	r1, r1
+     b98:	81a02002 	movhi	r2, r2
+     b9c:	81a03003 	movhi	r3, r3
+     ba0:	81a04004 	movhi	r4, r4
+     ba4:	81a05005 	movhi	r5, r5
+     ba8:	81a06006 	movhi	r6, r6
+     bac:	81a07007 	movhi	r7, r7
+     bb0:	81a08008 	movhi	r8, r8
+     bb4:	81a09009 	movhi	r9, r9
+     bb8:	81a0a00a 	movhi	sl, sl
+     bbc:	81a0b00b 	movhi	fp, fp
+     bc0:	81a0c00c 	movhi	ip, ip
+     bc4:	81a0e00e 	movhi	lr, lr
+     bc8:	91a00000 	movls	r0, r0
+     bcc:	91a01001 	movls	r1, r1
+     bd0:	91a02002 	movls	r2, r2
+     bd4:	91a03003 	movls	r3, r3
+     bd8:	91a04004 	movls	r4, r4
+     bdc:	91a05005 	movls	r5, r5
+     be0:	91a06006 	movls	r6, r6
+     be4:	91a07007 	movls	r7, r7
+     be8:	91a08008 	movls	r8, r8
+     bec:	91a09009 	movls	r9, r9
+     bf0:	91a0a00a 	movls	sl, sl
+     bf4:	91a0b00b 	movls	fp, fp
+     bf8:	91a0c00c 	movls	ip, ip
+     bfc:	91a0e00e 	movls	lr, lr
+     c00:	a1a00000 	movge	r0, r0
+     c04:	a1a01001 	movge	r1, r1
+     c08:	a1a02002 	movge	r2, r2
+     c0c:	a1a03003 	movge	r3, r3
+     c10:	a1a04004 	movge	r4, r4
+     c14:	a1a05005 	movge	r5, r5
+     c18:	a1a06006 	movge	r6, r6
+     c1c:	a1a07007 	movge	r7, r7
+     c20:	a1a08008 	movge	r8, r8
+     c24:	a1a09009 	movge	r9, r9
+     c28:	a1a0a00a 	movge	sl, sl
+     c2c:	a1a0b00b 	movge	fp, fp
+     c30:	a1a0c00c 	movge	ip, ip
+     c34:	a1a0e00e 	movge	lr, lr
+     c38:	b1a00000 	movlt	r0, r0
+     c3c:	b1a01001 	movlt	r1, r1
+     c40:	b1a02002 	movlt	r2, r2
+     c44:	b1a03003 	movlt	r3, r3
+     c48:	b1a04004 	movlt	r4, r4
+     c4c:	b1a05005 	movlt	r5, r5
+     c50:	b1a06006 	movlt	r6, r6
+     c54:	b1a07007 	movlt	r7, r7
+     c58:	b1a08008 	movlt	r8, r8
+     c5c:	b1a09009 	movlt	r9, r9
+     c60:	b1a0a00a 	movlt	sl, sl
+     c64:	b1a0b00b 	movlt	fp, fp
+     c68:	b1a0c00c 	movlt	ip, ip
+     c6c:	b1a0e00e 	movlt	lr, lr
+     c70:	c1a00000 	movgt	r0, r0
+     c74:	c1a01001 	movgt	r1, r1
+     c78:	c1a02002 	movgt	r2, r2
+     c7c:	c1a03003 	movgt	r3, r3
+     c80:	c1a04004 	movgt	r4, r4
+     c84:	c1a05005 	movgt	r5, r5
+     c88:	c1a06006 	movgt	r6, r6
+     c8c:	c1a07007 	movgt	r7, r7
+     c90:	c1a08008 	movgt	r8, r8
+     c94:	c1a09009 	movgt	r9, r9
+     c98:	c1a0a00a 	movgt	sl, sl
+     c9c:	c1a0b00b 	movgt	fp, fp
+     ca0:	c1a0c00c 	movgt	ip, ip
+     ca4:	c1a0e00e 	movgt	lr, lr
+     ca8:	d1a00000 	movle	r0, r0
+     cac:	d1a01001 	movle	r1, r1
+     cb0:	d1a02002 	movle	r2, r2
+     cb4:	d1a03003 	movle	r3, r3
+     cb8:	d1a04004 	movle	r4, r4
+     cbc:	d1a05005 	movle	r5, r5
+     cc0:	d1a06006 	movle	r6, r6
+     cc4:	d1a07007 	movle	r7, r7
+     cc8:	d1a08008 	movle	r8, r8
+     ccc:	d1a09009 	movle	r9, r9
+     cd0:	d1a0a00a 	movle	sl, sl
+     cd4:	d1a0b00b 	movle	fp, fp
+     cd8:	d1a0c00c 	movle	ip, ip
+     cdc:	d1a0e00e 	movle	lr, lr
+     ce0:	e1a00000 	nop			; (mov r0, r0)
+     ce4:	e1a01001 	mov	r1, r1
+     ce8:	e1a02002 	mov	r2, r2
+     cec:	e1a03003 	mov	r3, r3
+     cf0:	e1a04004 	mov	r4, r4
+     cf4:	e1a05005 	mov	r5, r5
+     cf8:	e1a06006 	mov	r6, r6
+     cfc:	e1a07007 	mov	r7, r7
+     d00:	e1a08008 	mov	r8, r8
+     d04:	e1a09009 	mov	r9, r9
+     d08:	e1a0a00a 	mov	sl, sl
+     d0c:	e1a0b00b 	mov	fp, fp
+     d10:	e1a0c00c 	mov	ip, ip
+     d14:	e1a0e00e 	mov	lr, lr
+     d18:	03800000 	orreq	r0, r0, #0
+     d1c:	03811000 	orreq	r1, r1, #0
+     d20:	03822000 	orreq	r2, r2, #0
+     d24:	03833000 	orreq	r3, r3, #0
+     d28:	03844000 	orreq	r4, r4, #0
+     d2c:	03855000 	orreq	r5, r5, #0
+     d30:	03866000 	orreq	r6, r6, #0
+     d34:	03877000 	orreq	r7, r7, #0
+     d38:	03888000 	orreq	r8, r8, #0
+     d3c:	03899000 	orreq	r9, r9, #0
+     d40:	038aa000 	orreq	sl, sl, #0
+     d44:	038bb000 	orreq	fp, fp, #0
+     d48:	038cc000 	orreq	ip, ip, #0
+     d4c:	038dd000 	orreq	sp, sp, #0
+     d50:	038ee000 	orreq	lr, lr, #0
+     d54:	038ff000 	orreq	pc, pc, #0
+     d58:	13800000 	orrne	r0, r0, #0
+     d5c:	13811000 	orrne	r1, r1, #0
+     d60:	13822000 	orrne	r2, r2, #0
+     d64:	13833000 	orrne	r3, r3, #0
+     d68:	13844000 	orrne	r4, r4, #0
+     d6c:	13855000 	orrne	r5, r5, #0
+     d70:	13866000 	orrne	r6, r6, #0
+     d74:	13877000 	orrne	r7, r7, #0
+     d78:	13888000 	orrne	r8, r8, #0
+     d7c:	13899000 	orrne	r9, r9, #0
+     d80:	138aa000 	orrne	sl, sl, #0
+     d84:	138bb000 	orrne	fp, fp, #0
+     d88:	138cc000 	orrne	ip, ip, #0
+     d8c:	138dd000 	orrne	sp, sp, #0
+     d90:	138ee000 	orrne	lr, lr, #0
+     d94:	138ff000 	orrne	pc, pc, #0
+     d98:	43800000 	orrmi	r0, r0, #0
+     d9c:	43811000 	orrmi	r1, r1, #0
+     da0:	43822000 	orrmi	r2, r2, #0
+     da4:	43833000 	orrmi	r3, r3, #0
+     da8:	43844000 	orrmi	r4, r4, #0
+     dac:	43855000 	orrmi	r5, r5, #0
+     db0:	43866000 	orrmi	r6, r6, #0
+     db4:	43877000 	orrmi	r7, r7, #0
+     db8:	43888000 	orrmi	r8, r8, #0
+     dbc:	43899000 	orrmi	r9, r9, #0
+     dc0:	438aa000 	orrmi	sl, sl, #0
+     dc4:	438bb000 	orrmi	fp, fp, #0
+     dc8:	438cc000 	orrmi	ip, ip, #0
+     dcc:	438dd000 	orrmi	sp, sp, #0
+     dd0:	438ee000 	orrmi	lr, lr, #0
+     dd4:	438ff000 	orrmi	pc, pc, #0
+     dd8:	53800000 	orrpl	r0, r0, #0
+     ddc:	53811000 	orrpl	r1, r1, #0
+     de0:	53822000 	orrpl	r2, r2, #0
+     de4:	53833000 	orrpl	r3, r3, #0
+     de8:	53844000 	orrpl	r4, r4, #0
+     dec:	53855000 	orrpl	r5, r5, #0
+     df0:	53866000 	orrpl	r6, r6, #0
+     df4:	53877000 	orrpl	r7, r7, #0
+     df8:	53888000 	orrpl	r8, r8, #0
+     dfc:	53899000 	orrpl	r9, r9, #0
+     e00:	538aa000 	orrpl	sl, sl, #0
+     e04:	538bb000 	orrpl	fp, fp, #0
+     e08:	538cc000 	orrpl	ip, ip, #0
+     e0c:	538dd000 	orrpl	sp, sp, #0
+     e10:	538ee000 	orrpl	lr, lr, #0
+     e14:	538ff000 	orrpl	pc, pc, #0
+     e18:	63800000 	orrvs	r0, r0, #0
+     e1c:	63811000 	orrvs	r1, r1, #0
+     e20:	63822000 	orrvs	r2, r2, #0
+     e24:	63833000 	orrvs	r3, r3, #0
+     e28:	63844000 	orrvs	r4, r4, #0
+     e2c:	63855000 	orrvs	r5, r5, #0
+     e30:	63866000 	orrvs	r6, r6, #0
+     e34:	63877000 	orrvs	r7, r7, #0
+     e38:	63888000 	orrvs	r8, r8, #0
+     e3c:	63899000 	orrvs	r9, r9, #0
+     e40:	638aa000 	orrvs	sl, sl, #0
+     e44:	638bb000 	orrvs	fp, fp, #0
+     e48:	638cc000 	orrvs	ip, ip, #0
+     e4c:	638dd000 	orrvs	sp, sp, #0
+     e50:	638ee000 	orrvs	lr, lr, #0
+     e54:	638ff000 	orrvs	pc, pc, #0
+     e58:	73800000 	orrvc	r0, r0, #0
+     e5c:	73811000 	orrvc	r1, r1, #0
+     e60:	73822000 	orrvc	r2, r2, #0
+     e64:	73833000 	orrvc	r3, r3, #0
+     e68:	73844000 	orrvc	r4, r4, #0
+     e6c:	73855000 	orrvc	r5, r5, #0
+     e70:	73866000 	orrvc	r6, r6, #0
+     e74:	73877000 	orrvc	r7, r7, #0
+     e78:	73888000 	orrvc	r8, r8, #0
+     e7c:	73899000 	orrvc	r9, r9, #0
+     e80:	738aa000 	orrvc	sl, sl, #0
+     e84:	738bb000 	orrvc	fp, fp, #0
+     e88:	738cc000 	orrvc	ip, ip, #0
+     e8c:	738dd000 	orrvc	sp, sp, #0
+     e90:	738ee000 	orrvc	lr, lr, #0
+     e94:	738ff000 	orrvc	pc, pc, #0
+     e98:	83800000 	orrhi	r0, r0, #0
+     e9c:	83811000 	orrhi	r1, r1, #0
+     ea0:	83822000 	orrhi	r2, r2, #0
+     ea4:	83833000 	orrhi	r3, r3, #0
+     ea8:	83844000 	orrhi	r4, r4, #0
+     eac:	83855000 	orrhi	r5, r5, #0
+     eb0:	83866000 	orrhi	r6, r6, #0
+     eb4:	83877000 	orrhi	r7, r7, #0
+     eb8:	83888000 	orrhi	r8, r8, #0
+     ebc:	83899000 	orrhi	r9, r9, #0
+     ec0:	838aa000 	orrhi	sl, sl, #0
+     ec4:	838bb000 	orrhi	fp, fp, #0
+     ec8:	838cc000 	orrhi	ip, ip, #0
+     ecc:	838dd000 	orrhi	sp, sp, #0
+     ed0:	838ee000 	orrhi	lr, lr, #0
+     ed4:	838ff000 	orrhi	pc, pc, #0
+     ed8:	93800000 	orrls	r0, r0, #0
+     edc:	93811000 	orrls	r1, r1, #0
+     ee0:	93822000 	orrls	r2, r2, #0
+     ee4:	93833000 	orrls	r3, r3, #0
+     ee8:	93844000 	orrls	r4, r4, #0
+     eec:	93855000 	orrls	r5, r5, #0
+     ef0:	93866000 	orrls	r6, r6, #0
+     ef4:	93877000 	orrls	r7, r7, #0
+     ef8:	93888000 	orrls	r8, r8, #0
+     efc:	93899000 	orrls	r9, r9, #0
+     f00:	938aa000 	orrls	sl, sl, #0
+     f04:	938bb000 	orrls	fp, fp, #0
+     f08:	938cc000 	orrls	ip, ip, #0
+     f0c:	938dd000 	orrls	sp, sp, #0
+     f10:	938ee000 	orrls	lr, lr, #0
+     f14:	938ff000 	orrls	pc, pc, #0
+     f18:	a3800000 	orrge	r0, r0, #0
+     f1c:	a3811000 	orrge	r1, r1, #0
+     f20:	a3822000 	orrge	r2, r2, #0
+     f24:	a3833000 	orrge	r3, r3, #0
+     f28:	a3844000 	orrge	r4, r4, #0
+     f2c:	a3855000 	orrge	r5, r5, #0
+     f30:	a3866000 	orrge	r6, r6, #0
+     f34:	a3877000 	orrge	r7, r7, #0
+     f38:	a3888000 	orrge	r8, r8, #0
+     f3c:	a3899000 	orrge	r9, r9, #0
+     f40:	a38aa000 	orrge	sl, sl, #0
+     f44:	a38bb000 	orrge	fp, fp, #0
+     f48:	a38cc000 	orrge	ip, ip, #0
+     f4c:	a38dd000 	orrge	sp, sp, #0
+     f50:	a38ee000 	orrge	lr, lr, #0
+     f54:	a38ff000 	orrge	pc, pc, #0
+     f58:	c3800000 	orrgt	r0, r0, #0
+     f5c:	c3811000 	orrgt	r1, r1, #0
+     f60:	c3822000 	orrgt	r2, r2, #0
+     f64:	c3833000 	orrgt	r3, r3, #0
+     f68:	c3844000 	orrgt	r4, r4, #0
+     f6c:	c3855000 	orrgt	r5, r5, #0
+     f70:	c3866000 	orrgt	r6, r6, #0
+     f74:	c3877000 	orrgt	r7, r7, #0
+     f78:	c3888000 	orrgt	r8, r8, #0
+     f7c:	c3899000 	orrgt	r9, r9, #0
+     f80:	c38aa000 	orrgt	sl, sl, #0
+     f84:	c38bb000 	orrgt	fp, fp, #0
+     f88:	c38cc000 	orrgt	ip, ip, #0
+     f8c:	c38dd000 	orrgt	sp, sp, #0
+     f90:	c38ee000 	orrgt	lr, lr, #0
+     f94:	c38ff000 	orrgt	pc, pc, #0
+     f98:	d3800000 	orrle	r0, r0, #0
+     f9c:	d3811000 	orrle	r1, r1, #0
+     fa0:	d3822000 	orrle	r2, r2, #0
+     fa4:	d3833000 	orrle	r3, r3, #0
+     fa8:	d3844000 	orrle	r4, r4, #0
+     fac:	d3855000 	orrle	r5, r5, #0
+     fb0:	d3866000 	orrle	r6, r6, #0
+     fb4:	d3877000 	orrle	r7, r7, #0
+     fb8:	d3888000 	orrle	r8, r8, #0
+     fbc:	d3899000 	orrle	r9, r9, #0
+     fc0:	d38aa000 	orrle	sl, sl, #0
+     fc4:	d38bb000 	orrle	fp, fp, #0
+     fc8:	d38cc000 	orrle	ip, ip, #0
+     fcc:	d38dd000 	orrle	sp, sp, #0
+     fd0:	d38ee000 	orrle	lr, lr, #0
+     fd4:	d38ff000 	orrle	pc, pc, #0
+     fd8:	b3800000 	orrlt	r0, r0, #0
+     fdc:	b3811000 	orrlt	r1, r1, #0
+     fe0:	b3822000 	orrlt	r2, r2, #0
+     fe4:	b3833000 	orrlt	r3, r3, #0
+     fe8:	b3844000 	orrlt	r4, r4, #0
+     fec:	b3855000 	orrlt	r5, r5, #0
+     ff0:	b3866000 	orrlt	r6, r6, #0
+     ff4:	b3877000 	orrlt	r7, r7, #0
+     ff8:	b3888000 	orrlt	r8, r8, #0
+     ffc:	b3899000 	orrlt	r9, r9, #0
+    1000:	b38aa000 	orrlt	sl, sl, #0
+    1004:	b38bb000 	orrlt	fp, fp, #0
+    1008:	b38cc000 	orrlt	ip, ip, #0
+    100c:	b38dd000 	orrlt	sp, sp, #0
+    1010:	b38ee000 	orrlt	lr, lr, #0
+    1014:	b38ff000 	orrlt	pc, pc, #0
+    1018:	e3800000 	orr	r0, r0, #0
+    101c:	e3811000 	orr	r1, r1, #0
+    1020:	e3822000 	orr	r2, r2, #0
+    1024:	e3833000 	orr	r3, r3, #0
+    1028:	e3844000 	orr	r4, r4, #0
+    102c:	e3855000 	orr	r5, r5, #0
+    1030:	e3866000 	orr	r6, r6, #0
+    1034:	e3877000 	orr	r7, r7, #0
+    1038:	e3888000 	orr	r8, r8, #0
+    103c:	e3899000 	orr	r9, r9, #0
+    1040:	e38aa000 	orr	sl, sl, #0
+    1044:	e38bb000 	orr	fp, fp, #0
+    1048:	e38cc000 	orr	ip, ip, #0
+    104c:	e38dd000 	orr	sp, sp, #0
+    1050:	e38ee000 	orr	lr, lr, #0
+    1054:	e38ff000 	orr	pc, pc, #0
+    1058:	02400000 	subeq	r0, r0, #0
+    105c:	02411000 	subeq	r1, r1, #0
+    1060:	02422000 	subeq	r2, r2, #0
+    1064:	02433000 	subeq	r3, r3, #0
+    1068:	02444000 	subeq	r4, r4, #0
+    106c:	02455000 	subeq	r5, r5, #0
+    1070:	02466000 	subeq	r6, r6, #0
+    1074:	02477000 	subeq	r7, r7, #0
+    1078:	02488000 	subeq	r8, r8, #0
+    107c:	02499000 	subeq	r9, r9, #0
+    1080:	024aa000 	subeq	sl, sl, #0
+    1084:	024bb000 	subeq	fp, fp, #0
+    1088:	024cc000 	subeq	ip, ip, #0
+    108c:	024ee000 	subeq	lr, lr, #0
+    1090:	12400000 	subne	r0, r0, #0
+    1094:	12411000 	subne	r1, r1, #0
+    1098:	12422000 	subne	r2, r2, #0
+    109c:	12433000 	subne	r3, r3, #0
+    10a0:	12444000 	subne	r4, r4, #0
+    10a4:	12455000 	subne	r5, r5, #0
+    10a8:	12466000 	subne	r6, r6, #0
+    10ac:	12477000 	subne	r7, r7, #0
+    10b0:	12488000 	subne	r8, r8, #0
+    10b4:	12499000 	subne	r9, r9, #0
+    10b8:	124aa000 	subne	sl, sl, #0
+    10bc:	124bb000 	subne	fp, fp, #0
+    10c0:	124cc000 	subne	ip, ip, #0
+    10c4:	124ee000 	subne	lr, lr, #0
+    10c8:	22400000 	subcs	r0, r0, #0
+    10cc:	22411000 	subcs	r1, r1, #0
+    10d0:	22422000 	subcs	r2, r2, #0
+    10d4:	22433000 	subcs	r3, r3, #0
+    10d8:	22444000 	subcs	r4, r4, #0
+    10dc:	22455000 	subcs	r5, r5, #0
+    10e0:	22466000 	subcs	r6, r6, #0
+    10e4:	22477000 	subcs	r7, r7, #0
+    10e8:	22488000 	subcs	r8, r8, #0
+    10ec:	22499000 	subcs	r9, r9, #0
+    10f0:	224aa000 	subcs	sl, sl, #0
+    10f4:	224bb000 	subcs	fp, fp, #0
+    10f8:	224cc000 	subcs	ip, ip, #0
+    10fc:	224ee000 	subcs	lr, lr, #0
+    1100:	32400000 	subcc	r0, r0, #0
+    1104:	32411000 	subcc	r1, r1, #0
+    1108:	32422000 	subcc	r2, r2, #0
+    110c:	32433000 	subcc	r3, r3, #0
+    1110:	32444000 	subcc	r4, r4, #0
+    1114:	32455000 	subcc	r5, r5, #0
+    1118:	32466000 	subcc	r6, r6, #0
+    111c:	32477000 	subcc	r7, r7, #0
+    1120:	32488000 	subcc	r8, r8, #0
+    1124:	32499000 	subcc	r9, r9, #0
+    1128:	324aa000 	subcc	sl, sl, #0
+    112c:	324bb000 	subcc	fp, fp, #0
+    1130:	324cc000 	subcc	ip, ip, #0
+    1134:	324ee000 	subcc	lr, lr, #0
+    1138:	42400000 	submi	r0, r0, #0
+    113c:	42411000 	submi	r1, r1, #0
+    1140:	42422000 	submi	r2, r2, #0
+    1144:	42433000 	submi	r3, r3, #0
+    1148:	42444000 	submi	r4, r4, #0
+    114c:	42455000 	submi	r5, r5, #0
+    1150:	42466000 	submi	r6, r6, #0
+    1154:	42477000 	submi	r7, r7, #0
+    1158:	42488000 	submi	r8, r8, #0
+    115c:	42499000 	submi	r9, r9, #0
+    1160:	424aa000 	submi	sl, sl, #0
+    1164:	424bb000 	submi	fp, fp, #0
+    1168:	424cc000 	submi	ip, ip, #0
+    116c:	424ee000 	submi	lr, lr, #0
+    1170:	52400000 	subpl	r0, r0, #0
+    1174:	52411000 	subpl	r1, r1, #0
+    1178:	52422000 	subpl	r2, r2, #0
+    117c:	52433000 	subpl	r3, r3, #0
+    1180:	52444000 	subpl	r4, r4, #0
+    1184:	52455000 	subpl	r5, r5, #0
+    1188:	52466000 	subpl	r6, r6, #0
+    118c:	52477000 	subpl	r7, r7, #0
+    1190:	52488000 	subpl	r8, r8, #0
+    1194:	52499000 	subpl	r9, r9, #0
+    1198:	524aa000 	subpl	sl, sl, #0
+    119c:	524bb000 	subpl	fp, fp, #0
+    11a0:	524cc000 	subpl	ip, ip, #0
+    11a4:	524ee000 	subpl	lr, lr, #0
+    11a8:	62400000 	subvs	r0, r0, #0
+    11ac:	62411000 	subvs	r1, r1, #0
+    11b0:	62422000 	subvs	r2, r2, #0
+    11b4:	62433000 	subvs	r3, r3, #0
+    11b8:	62444000 	subvs	r4, r4, #0
+    11bc:	62455000 	subvs	r5, r5, #0
+    11c0:	62466000 	subvs	r6, r6, #0
+    11c4:	62477000 	subvs	r7, r7, #0
+    11c8:	62488000 	subvs	r8, r8, #0
+    11cc:	62499000 	subvs	r9, r9, #0
+    11d0:	624aa000 	subvs	sl, sl, #0
+    11d4:	624bb000 	subvs	fp, fp, #0
+    11d8:	624cc000 	subvs	ip, ip, #0
+    11dc:	624ee000 	subvs	lr, lr, #0
+    11e0:	72400000 	subvc	r0, r0, #0
+    11e4:	72411000 	subvc	r1, r1, #0
+    11e8:	72422000 	subvc	r2, r2, #0
+    11ec:	72433000 	subvc	r3, r3, #0
+    11f0:	72444000 	subvc	r4, r4, #0
+    11f4:	72455000 	subvc	r5, r5, #0
+    11f8:	72466000 	subvc	r6, r6, #0
+    11fc:	72477000 	subvc	r7, r7, #0
+    1200:	72488000 	subvc	r8, r8, #0
+    1204:	72499000 	subvc	r9, r9, #0
+    1208:	724aa000 	subvc	sl, sl, #0
+    120c:	724bb000 	subvc	fp, fp, #0
+    1210:	724cc000 	subvc	ip, ip, #0
+    1214:	724ee000 	subvc	lr, lr, #0
+    1218:	82400000 	subhi	r0, r0, #0
+    121c:	82411000 	subhi	r1, r1, #0
+    1220:	82422000 	subhi	r2, r2, #0
+    1224:	82433000 	subhi	r3, r3, #0
+    1228:	82444000 	subhi	r4, r4, #0
+    122c:	82455000 	subhi	r5, r5, #0
+    1230:	82466000 	subhi	r6, r6, #0
+    1234:	82477000 	subhi	r7, r7, #0
+    1238:	82488000 	subhi	r8, r8, #0
+    123c:	82499000 	subhi	r9, r9, #0
+    1240:	824aa000 	subhi	sl, sl, #0
+    1244:	824bb000 	subhi	fp, fp, #0
+    1248:	824cc000 	subhi	ip, ip, #0
+    124c:	824ee000 	subhi	lr, lr, #0
+    1250:	92400000 	subls	r0, r0, #0
+    1254:	92411000 	subls	r1, r1, #0
+    1258:	92422000 	subls	r2, r2, #0
+    125c:	92433000 	subls	r3, r3, #0
+    1260:	92444000 	subls	r4, r4, #0
+    1264:	92455000 	subls	r5, r5, #0
+    1268:	92466000 	subls	r6, r6, #0
+    126c:	92477000 	subls	r7, r7, #0
+    1270:	92488000 	subls	r8, r8, #0
+    1274:	92499000 	subls	r9, r9, #0
+    1278:	924aa000 	subls	sl, sl, #0
+    127c:	924bb000 	subls	fp, fp, #0
+    1280:	924cc000 	subls	ip, ip, #0
+    1284:	924ee000 	subls	lr, lr, #0
+    1288:	a2400000 	subge	r0, r0, #0
+    128c:	a2411000 	subge	r1, r1, #0
+    1290:	a2422000 	subge	r2, r2, #0
+    1294:	a2433000 	subge	r3, r3, #0
+    1298:	a2444000 	subge	r4, r4, #0
+    129c:	a2455000 	subge	r5, r5, #0
+    12a0:	a2466000 	subge	r6, r6, #0
+    12a4:	a2477000 	subge	r7, r7, #0
+    12a8:	a2488000 	subge	r8, r8, #0
+    12ac:	a2499000 	subge	r9, r9, #0
+    12b0:	a24aa000 	subge	sl, sl, #0
+    12b4:	a24bb000 	subge	fp, fp, #0
+    12b8:	a24cc000 	subge	ip, ip, #0
+    12bc:	a24ee000 	subge	lr, lr, #0
+    12c0:	b2400000 	sublt	r0, r0, #0
+    12c4:	b2411000 	sublt	r1, r1, #0
+    12c8:	b2422000 	sublt	r2, r2, #0
+    12cc:	b2433000 	sublt	r3, r3, #0
+    12d0:	b2444000 	sublt	r4, r4, #0
+    12d4:	b2455000 	sublt	r5, r5, #0
+    12d8:	b2466000 	sublt	r6, r6, #0
+    12dc:	b2477000 	sublt	r7, r7, #0
+    12e0:	b2488000 	sublt	r8, r8, #0
+    12e4:	b2499000 	sublt	r9, r9, #0
+    12e8:	b24aa000 	sublt	sl, sl, #0
+    12ec:	b24bb000 	sublt	fp, fp, #0
+    12f0:	b24cc000 	sublt	ip, ip, #0
+    12f4:	b24ee000 	sublt	lr, lr, #0
+    12f8:	c2400000 	subgt	r0, r0, #0
+    12fc:	c2411000 	subgt	r1, r1, #0
+    1300:	c2422000 	subgt	r2, r2, #0
+    1304:	c2433000 	subgt	r3, r3, #0
+    1308:	c2444000 	subgt	r4, r4, #0
+    130c:	c2455000 	subgt	r5, r5, #0
+    1310:	c2466000 	subgt	r6, r6, #0
+    1314:	c2477000 	subgt	r7, r7, #0
+    1318:	c2488000 	subgt	r8, r8, #0
+    131c:	c2499000 	subgt	r9, r9, #0
+    1320:	c24aa000 	subgt	sl, sl, #0
+    1324:	c24bb000 	subgt	fp, fp, #0
+    1328:	c24cc000 	subgt	ip, ip, #0
+    132c:	c24ee000 	subgt	lr, lr, #0
+    1330:	d2400000 	suble	r0, r0, #0
+    1334:	d2411000 	suble	r1, r1, #0
+    1338:	d2422000 	suble	r2, r2, #0
+    133c:	d2433000 	suble	r3, r3, #0
+    1340:	d2444000 	suble	r4, r4, #0
+    1344:	d2455000 	suble	r5, r5, #0
+    1348:	d2466000 	suble	r6, r6, #0
+    134c:	d2477000 	suble	r7, r7, #0
+    1350:	d2488000 	suble	r8, r8, #0
+    1354:	d2499000 	suble	r9, r9, #0
+    1358:	d24aa000 	suble	sl, sl, #0
+    135c:	d24bb000 	suble	fp, fp, #0
+    1360:	d24cc000 	suble	ip, ip, #0
+    1364:	d24ee000 	suble	lr, lr, #0
+    1368:	e2400000 	sub	r0, r0, #0
+    136c:	e2411000 	sub	r1, r1, #0
+    1370:	e2422000 	sub	r2, r2, #0
+    1374:	e2433000 	sub	r3, r3, #0
+    1378:	e2444000 	sub	r4, r4, #0
+    137c:	e2455000 	sub	r5, r5, #0
+    1380:	e2466000 	sub	r6, r6, #0
+    1384:	e2477000 	sub	r7, r7, #0
+    1388:	e2488000 	sub	r8, r8, #0
+    138c:	e2499000 	sub	r9, r9, #0
+    1390:	e24aa000 	sub	sl, sl, #0
+    1394:	e24bb000 	sub	fp, fp, #0
+    1398:	e24cc000 	sub	ip, ip, #0
+    139c:	e24ee000 	sub	lr, lr, #0
