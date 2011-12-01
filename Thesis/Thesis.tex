@@ -1,27 +1,49 @@
-\documentclass{article}
-\usepackage{jahstyle}
+\documentclass{jahdoc}
+\usepackage{lipsum}
+\usepackage{natbib}
 
-\title{Platform Independent Programs}
-\author{Joseph Hallett\thanks{With thanks to Dan~Page for supervising the project}}
+
+\title{Platform Independant Programs}
+\subtitle{The creation and detection of steganographic execution patterns}
+\author{Joseph Hallett}
 \date\today
+\posttitle{%
+  Submitted in partial fulfillment of the requirements\\
+  for the degree of Master of Engineering
+
+  \vspace{1pc}
+  to the
+  \vspace{1pc}
+
+  Department of Computer Science\\
+  Faculty of Engineering\\
+  University of Bristol
+}
 
 \begin{document}
-\maketitle
+  \frontmatter
+    \pagenumbering{alph}
+    \maketitle
+    \pagenumbering{roman}
+    \clearpage
+    \include{Abstract}
+    \clearpage
+    \tableofcontents
+    \listoffigures
+    \clearpage
+    \listoftables
 
-\begin{abstract}
-  Until recently it was believed that having bytecode that ran on multiple
-architectures was limited to virtual machines and a limited number of hand
-written examples.  In 2010 a team of researchers from Carnegie Mellon University managed to develop a method for creating platform independent programs automatically\cite{Cha:2010uh}
-\end{abstract}
-
-\tableofcontents
+  \mainmatter
 
 
+\chapter{dolor sit amet}
+\section{Isn't this fun?}
+
+\lipsum[1]
+\sidenote{\lipsum[2]}
+\cite{dummy}
 
 \appendix
-\section{Bibliography}
-\bibliographystyle{plain}
+\bibliographystyle{plainnat}
 \bibliography{Thesis}
-
 \end{document}
-
