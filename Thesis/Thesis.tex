@@ -1,7 +1,5 @@
 \documentclass{jahdoc}
 \usepackage{lipsum}
-\usepackage{natbib}
-
 
 \title{Platform Independant Programs}
 \subtitle{The creation and detection of steganographic execution patterns}
@@ -10,23 +8,19 @@
 \posttitle{%
   Submitted in partial fulfillment of the requirements\\
   for the degree of Master of Engineering
-
   \vspace{1pc}
   to the
   \vspace{1pc}
-
   Department of Computer Science\\
   Faculty of Engineering\\
   University of Bristol
 }
 
+\pagestyle{plain}
 \begin{document}
   \frontmatter
-    \pagenumbering{alph}
     \maketitle
-    \pagenumbering{roman}
-    \clearpage
-    \include{Abstract}
+    \include{0-*-Abstract}
     \clearpage
     \tableofcontents
     \listoffigures
@@ -34,16 +28,24 @@
     \listoftables
 
   \mainmatter
+    \include{1-*-Intro}
+    \include{1-1-Intro-What}
+    \include{1-2-Intro-Why}
+    \include{1-3-Intro-Who}
+    \include{1-4-Intro-Summary}
 
+    \include{2-*-Tech}
 
-\chapter{dolor sit amet}
-\section{Isn't this fun?}
+    \include{3-*-Components}
 
-\lipsum[1]
-\sidenote{\lipsum[2]}
-\cite{dummy}
+    \include{4-*-Execution}
+    \include{4-1-Execution-Implementation}
+    \include{4-2-Execution-Evaluation}
+
+    \include{5-*-Conclusion}
+    
 
 \appendix
-\bibliographystyle{plainnat}
+\bibliographystyle{plain}
 \bibliography{Thesis}
 \end{document}
