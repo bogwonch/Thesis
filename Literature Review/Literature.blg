@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Literature.aux
+The style file: plain.bst
+A level-1 auxiliary file: Content.aux
+Case mismatch error between cite keys BALAKRISHNAN2005 and Balakrishnan2005
+---line 37 of file Content.aux
+ : \citation{BALAKRISHNAN2005
+ :                           }
+I'm skipping whatever remains of this command
+Case mismatch error between cite keys COLLBERG1997 and Collberg1997
+---line 57 of file Content.aux
+ : \citation{COLLBERG1997
+ :                       }
+I'm skipping whatever remains of this command
+Database file #1: Literature.bib
+Warning--empty journal in Balakrishnan2005
+Warning--empty journal in Bilar2007
+Warning--empty journal in Cachin1998
+Warning--empty journal in Cifuentes1999
+Warning--empty journal in Ebcioglu2001
+Warning--empty journal in Mason2009
+Warning--empty journal in Sites1993
+Warning--empty journal in Younan2009
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            548 strings with 5373 characters,
+and the built_in function-call counts, 2870 in all, are:
+= -- 249
+> -- 198
+< -- 0
++ -- 81
+- -- 68
+* -- 188
+:= -- 538
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 65
+chr.to.int$ -- 0
+cite$ -- 18
+duplicate$ -- 102
+empty$ -- 180
+format.name$ -- 68
+if$ -- 548
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 9
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 83
+preamble$ -- 1
+purify$ -- 54
+quote$ -- 0
+skip$ -- 67
+stack$ -- 0
+substring$ -- 53
+swap$ -- 2
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 8
+while$ -- 20
+width$ -- 12
+write$ -- 95
+(There were 2 error messages)

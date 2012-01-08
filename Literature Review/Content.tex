@@ -1,0 +1,291 @@
+\chapter{Literature Reviews}
+
+\section{Dynamic Binary Translation and
+Optimization\citep{Ebcioglu2001}}
+
+The aim of the paper is to describe a VLIW\footnote{VLIW (Very Long
+  Instruction Word) is a CPU architecture designed such that it can take
+  advantage of instruction level parallelism.} architecture that is
+compatible with an existing architecture (PowerPC in this case). The new
+architecture, DAISY, can execute existing programs through the use of
+dynamic compilation.
+
+Unlike the PIP aproach they design their architecture to be binary
+compatible (or at least with an architecture level VM) with PPC, rather
+than by relying on overlaps in the IS and platform specific behaviour.
+
+Again, self modifying code is an issue; but less so on the PPC arch.
+They admit it'd be a pain on x86.
+
+\section{Binary Translation\citep{Sites1993}}
+
+Paper describes various methods of translating programs from one
+architecture to another without using virtualization. They discuss the
+various methods for translating between the VAX and OpenVMS
+architectures.
+
+They point out that certain things can make programs untranslatable
+namely: exception handling differences, undocumented features, and
+system specific behavior (VAX memory management or program-image
+formats).
+
+They do analysis on their programs. They note on the MIPS architecture:
+
+\begin{quote}
+only 10 instructions account for about 85\% of all code.
+
+\end{quote}
+This will probably be useful when trying to detect my PIPs from
+non-PIPs. They also add that certain sequences of instructions are
+idiomatic on a given architecture: again this can probably be exploited
+for distinguishing PIPs.
+
+This seems to be more to do with the ∏-translation step of the original
+PIP paper, rather than the actual design of steganographic execution.
+However it might be interesting with the dual problem: given a program
+$p$ for a machine $M_1$ such that $M_1(p) = b_1$ find $M_2$ and $b_2$
+such that $M_2(p) = b_2$.
+
+\section{English Shellcode\citep{Mason2009}}
+
+The paper describes a method of hiding shellcode such that it is hidden
+inside English text---making the detection of it harder. They take
+advantage of grammar and NL techniques to obscure the code.
+
+Currently shellcode attacks can be spotted at compile time with linters
+(e.g.~RATS. See also AEG paper), and through an emulation layer, taint
+analysis, or by checking inputs against known shellcodes.
+
+\begin{quote}
+User input or network traffic is considered suspicious when it is
+executable or anomalous
+
+\end{quote}
+This is \emph{insanely} cool. Hide a PIP gadget inside a buffer such
+that it looks like its holding some text. Looks completely (well
+relatively) inoccuous but then you're executing it.
+
+\section{Automatic Exploit Generation\citep{Avgerinos2011}}
+
+The AEG challenge: given a program find vulnerabilities and generate
+exploits automatically.\\Managed to find two new zero-days. Uses
+heuristics to rank potentially executable areas \& to search them; to
+look first at HTTP get requests for example.
+
+Requires the source code (its a linter). They have a nice video showing
+it working on a bug in \texttt{iwconfig} involving a \texttt{strcpy()}
+call.
+
+An extension/reworking of the LLVM projects KLEE symbolic execution
+engine. Works better for this purpose but most exploits found usually
+benefit from a little hand tweaking first.
+
+Can prioritise search areas based on different statistics (i.e.~if a
+programmer is known to make off-by-one errors they can prioritize buffer
+error searching). Currently able to produce \emph{return-to-stack} and
+\emph{return-to-libc} attacks.
+
+\subsection{Return-to-stack attack}
+
+Change the return address of a function so that we return to somewhere
+on the stack where our shellcode has been placed.
+
+\subsection{Return-to-libc}
+
+Find a `\texttt{/bin/sh}' string in an executable (difficult!), then
+overwrite a return address to jump into an `\texttt{execve /bin/sh}'
+call.
+
+Both these attacks still need to hijack control flow though. Neither
+attack describes how to do this, but once you have managed to get a
+shell it is effectively game over.
+
+Very cool, but not what I'm really trying to do.
+
+\section{Design of a Resourcable and Retargetable Binary
+Translator\citep{Cifuentes1999}}
+
+Automatic translation of executables from one format to another without
+the source code (and by the \emph{NoWeb} guy!). Essentially they do it
+by reverse engineering and decompiling before recompiling it.
+
+Only works well on EXE formats at the moment. Uses an intermediate
+language, but it seems very early. Small programs with negligable
+overhead.
+
+\section{Finger Printing Malicious Code Through Statistical Opcode
+Analysis\citep{Bilar2007}}
+
+Looks at the number of different opcodes in various different programs.
+Finds that malware tends to have slightly different set of opcodes to
+regular programs, but it isn't clear how significant his results are:
+one or two percent is not a lot. With the more unusual opcodes the
+results are a little more interesting. The frequency of rare opcodes is
+significantly higher in malware (it seems again no ranges to compare
+against). He concludes saying that opcodes are a relatively week
+predictor of malware in the most part but for rarer opcodes there a bit
+better.
+
+Interesting. Suspect if you had a list of semantic nops available it'd
+work better though (and I bet malware would have a \emph{lot} of them).
+Its an interesting theory anyway. I'd like to try it with some programs
+of my own.
+
+\section{CodeSurfer/x86---A Platform for Analyzing x86
+Executables\citep{Balakrishnan2005}}
+
+Describes an analysis package for x86 built upon IDA for doing
+\emph{value-set analysis}. Value-set analysis is a method of recovering
+an intermediate representation of a program written in a high-level
+language. One of the big problems in doing this is knowing what is going
+on with memory and pointers. This paper attempts to describe a new tool
+for dealing with this for the purpose of analysizing the behaviour of
+malicious code.
+
+Would being able to see additional NOPS help? Possibly not we're looking
+at memory use here, but its an attempt to reverse some of the
+obfuscating transforms.
+
+\section{Filter-resistant Code Injection on ARM\citep{Younan2009}}
+
+About writing the first purely alphanumeric shellcode for the ARM
+platform.
+
+Apparently they use the \texttt{PL} and \texttt{MI} conditionals
+throughout (presumably they intersect nicely with ASCII? 00 or 01
+then?). No trivial \texttt{MOV} instruction: instead you have to do
+weird things using an immediate in a \texttt{SUB} expression and then
+load it using the PC with an offset. Very clever stuff. They can even
+enter and exit thumb mode.
+
+Show that they can write a \emph{BrainFuck} compiler (hence their
+alpha-numeric shellcode is Turing Complete).
+
+\section{An Information Theoretic Model for
+Steganography\citep{Cachin1998}}
+
+Gives information theoretic model for steganography.
+
+\subsection{Passive Adversary ε-Security}
+
+Given message $m$: you can decide correctly whether it was covertext $C$
+or stegotext $S$ with probability less than or equal to
+$ε${[}\^{}perfect{]}: \[D(P_C || P_S) ≤  ε\]
+
+{[}\^{}perfect{]} if $ε = 0$ then the system is perfectly secure.
+
+And so it goes on giving more mathematical definitions. A bit dry, but
+at least it gives the formal definitions.
+
+\section{A Taxonomy of Obfuscating Transformation\citep{Collberg1997}}
+
+Describes several techniques for obfuscating code in (e.g.~to Java
+bytecode) in terms of three characteristics:
+
+\begin{description}
+\item[Potency]
+how much does this confuse a human?
+\item[Resilience]
+how easy is it de-obfuscate automatically?
+\item[Cost]
+how much overhead does this add?
+\end{description}
+\subsection{Obfuscating transform}
+
+A transform $τ$ producing $P^\prime$ from $P$ is an \emph{obfuscating
+transform} if $P$ and $P^\prime$ have the same observable behaviour and
+they terminate (or don't) in the same manner with the same output given
+the same input.
+
+\[P \overset{τ}{\implies} P^\prime\]
+
+\subsection{Measures of Complexity}
+
+\begin{verbatim}
+1. Program length
+2. Cyclomatic complexity
+3. Nesting complexity
+4. Data flow complexity
+5. Fan-in/out complexity
+6. OO Metric (how much of it isn't well written object code?)
+\end{verbatim}
+\subsection{Transformation Potency}
+
+A transform $τ$'s potency is measuered as the ratio between the
+complexity of the transformed program and the original program, minus
+one. A transform is \emph{potent} if this ratio is greater than zero.
+
+\[τ_\text{pot}(P) \gets \frac{E(P^\prime)}{E(P)} - 1\]
+
+\subsection{Measures of Resilience}
+
+Programmer effort \ensuremath{\sim} how much time would it take to write
+a de-obfuscator to reduce the potency of τ.
+
+Deobfusctor effort \ensuremath{\sim} how efficient is the deobfuscator
+at deobfuscating τ.
+
+\subsection{Measures of Cost}
+
+Essentially how badly does τ effect the time and space complexity of the
+program.
+
+\subsection{Control Transforms}
+
+Opaque predicates \ensuremath{\sim} add tests that you know will pass or
+fail a priori, but that will be difficult for a deobfuscator to deduce.
+
+\subsection{Computational Transforms}
+
+Dead Code \ensuremath{\sim} add code that does nothing\ldots{}or does
+something to irrelevant objects.
+
+Extend Loops \ensuremath{\sim} make the termination conditions really
+contrived.
+
+Convert to a non-reducible flow-graph \ensuremath{\sim} add features
+which don't exist in the language compiling from (eg. \texttt{GOTO})
+
+Inline function calls \ensuremath{\sim} no library calls for you!
+
+Embed an interpreter \ensuremath{\sim} everything from a different
+language!
+
+Add redundant operands \ensuremath{\sim} multiply non-obviously by one!
+Add zero! Square then square root!
+
+Parallelize it \ensuremath{\sim} concurrency is hard
+
+\subsection{Aggregation}
+
+Inlining and outlining \ensuremath{\sim} make random things one time
+function calls
+
+Use coroutines \ensuremath{\sim} nb: this won't foil an attack by Don
+Knuth
+
+Clone methods \ensuremath{\sim} duplicate functions and pick randomly
+between them
+
+Make loops more complex \ensuremath{\sim} loops within loops
+\ensuremath{\sim} unroll loops and alter only some of the iterations
+
+Reduce locality \ensuremath{\sim} data loading and use are far apart
+
+\subsection{Data transformations}
+
+Use unusual structures \ensuremath{\sim} bit packing is fun
+\ensuremath{\sim} multiple bits for one bit of data \ensuremath{\sim}
+encryption
+
+Change encoding \ensuremath{\sim} trinary is fun
+
+Promote variables \ensuremath{\sim} Use the most generic class of data
+
+Split variables \ensuremath{\sim} half the char is in this int and the
+other half is over here\ldots{}
+
+Generate constants \ensuremath{\sim} no need to hardcode constants
+
+Merge scalars \ensuremath{\sim} these bits are for this\ldots{} and the
+rest are for something else

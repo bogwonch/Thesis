@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+
+\bibitem{SysVElf}
+AT\&T.
+\newblock Elf header.
+\newblock In {\em SYSTEM V APPLICATION BINARY INTERFACE}. The Santa Cruz
+  Operation, Inc., 1997.
+
+\bibitem{Bilar2007}
+Daniel Bilar.
+\newblock Fingerprinting malicious code through statistical opcode analysis.
+\newblock 2007.
+
+\bibitem{Brumley2010}
+Sang~Kil Cha, Brian Pak, David Brumley, and Richard~Jay Lipton.
+\newblock Platform-independent programs.
+\newblock 2010.
+
+\bibitem{PrintMe2011}
+Ang Cui and Jonathan Voris.
+\newblock Print me if you dare.
+\newblock In {\em 28th Chaos Communication Congress Behind Enemy Lines}, 2011.
+
+\bibitem{FatELF}
+Icculus.
+\newblock Fatelf: Universal binaries for linux.
+
+\bibitem{Preda2007}
+M.D. Preda, M.~Christodorescu, S.~Jha, and S~Debray.
+\newblock A semantics-based approach to malware detection.
+\newblock 2007.
+
+\end{thebibliography}

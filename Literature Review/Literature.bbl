@@ -1,0 +1,56 @@
+\begin{thebibliography}{10}
+
+\bibitem{Avgerinos2011}
+Thanassis Avgerinos, Sang~Kil Cha, Brent Lim~Tze Hao, and David Brumley.
+\newblock Aeg: Automatic exploit generation.
+\newblock In {\em Network and Distributed System Security Symposium}, February
+  2011.
+
+\bibitem{Balakrishnan2005}
+Gogul Balakrishnan, Radu Gruian, and Thomas Reps.
+\newblock Codesurfer x86—a platform for analyzing x86 executables.
+\newblock 2005.
+
+\bibitem{Bilar2007}
+Daniel Bilar.
+\newblock Fingerprinting malicious code through statistical opcode analysis.
+\newblock 2007.
+
+\bibitem{Cachin1998}
+Christian Cachin.
+\newblock An information theoretci model for steganography.
+\newblock 1998.
+
+\bibitem{Cifuentes1999}
+Christina Cifuentes, Mike Van~Emmerik, and Norman Ramsey.
+\newblock The design of a resourcable and retargetable binary translator.
+\newblock 1999.
+
+\bibitem{Collberg1997}
+Christian Collberg, Clark Thomborson, and Douglas Low.
+\newblock A taxonomy of obfuscating transformations.
+\newblock Technical report, The University of Auckland, 1997.
+
+\bibitem{Ebcioglu2001}
+Kemal Ebcioglu, Erik Altman, Michael Gschwind, and Sumedh Sathaye.
+\newblock Dynamic birnary translation and optimization.
+\newblock 2001.
+
+\bibitem{Mason2009}
+Joshua Mason, Sam Small, Fabian Monrose, and Greg MacManus.
+\newblock English shellcode.
+\newblock 2009.
+
+\bibitem{Sites1993}
+Richard~L. Sites, Anton Chernoff, Matthew~B. Kirk, Maurice~P. Marks, and
+  Scott~G. Robinson.
+\newblock Binary translation.
+\newblock 1993.
+
+\bibitem{Younan2009}
+Yves Younan, Pieter Philippaerts, Frank Piessens, Wouter Joosen, Sven Lachmund,
+  and Thomas Walter.
+\newblock Filter-resistant code injection on arm.
+\newblock 2009.
+
+\end{thebibliography}

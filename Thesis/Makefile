@@ -1,39 +1,36 @@
-TEX=xelatex
-BIB=bibtex
-MD=pandoc
-RM=/bin/rm
-
-TFLAGS=
-BFLAGS=
-MFLAGS=-f markdown -t latex -S --chapters
-RFLAGS=-rf
-
-TARGET=Thesis
+BIBLIOGRAPHY=Thesis.bib
 
 %.tex: %.md
-	$(MD) $(MFLAGS) $< -o $@
+	@pandoc -t LaTeX $< -o $@ --bibliography ${BIBLIOGRAPHY} --natbib --listings #--chapter
 
-all:
-	make clean
-	make thesis
-	make tidy
 
-thesis:
-	$(TEX) $(TFLAGS) $(TARGET)
-	$(BIB) $(BFLAGS) $(TARGET)
-	$(TEX) $(TFLAGS) $(TARGET)
-	$(TEX) $(TFLAGS) $(TARGET)
+Thesis.pdf: Thesis.tex $(wildcard *.md)
+	@xelatex Thesis
+	@bibtex  Thesis
+	@xelatex Thesis
+	@xelatex Thesis
+	@xelatex Thesis
+	@echo Done!
+
+Thesis.tex: 0-*-Abstract.tex 1-*-Intro.tex 2-*-Tech.tex 3-*-Components.tex 4-*-Execution.tex 4-1-Execution-Implementation.tex 4-2-Execution-Evaluation.tex 5-*-Conclusion.tex 
 
 tidy:
-		$(RM) $(RFLAGS) $(wildcard *.aux)
-		$(RM) $(RFLAGS) $(wildcard *.bbl)
-		$(RM) $(RFLAGS) $(wildcard *.blg)
-		$(RM) $(RFLAGS) $(wildcard *.brf)
-		$(RM) $(RFLAGS) $(wildcard *.lof)
-		$(RM) $(RFLAGS) $(wildcard *.log)
-		$(RM) $(RFLAGS) $(wildcard *.lot)
-		$(RM) $(RFLAGS) $(wildcard *.out)
-		$(RM) $(RFLAGS) $(wildcard *.toc)
+	@trash 0-*-Abstract.tex
+	@trash 1-*-Intro.tex
+	@trash 1-1-Intro-What.tex
+	@trash 1-2-Intro-Why.tex
+	@trash 1-3-Intro-Who.tex
+	@trash 1-4-Intro-Summary.tex
+	@trash $(wildcard *.aux)
+	@trash $(wildcard *.lof)
+	@trash $(wildcard *.log)
+	@trash $(wildcard *.lot)
+	@trash $(wildcard *.out)
+	@trash $(wildcard *.pdf)
+	@trash $(wildcard *.toc)
+	@trash $(wildcard *.bbl)
+	@trash $(wildcard *.blg)
+	@trash $(wildcard *.brf)
 
 clean: tidy
-		$(RM) $(RFLAGS) $(wildcard *.pdf)
+	@trash Thesis.pdf

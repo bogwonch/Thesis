@@ -1,0 +1,58 @@
+This is BibTeX, Version 0.99d (TeX Live 2011)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Thesis.aux
+A level-1 auxiliary file: 0-*-Abstract.aux
+A level-1 auxiliary file: 1-*-Intro.aux
+A level-1 auxiliary file: 2-*-Tech.aux
+A level-1 auxiliary file: 3-*-Components.aux
+A level-1 auxiliary file: 4-*-Execution.aux
+A level-1 auxiliary file: 4-1-Execution-Implementation.aux
+A level-1 auxiliary file: 4-2-Execution-Evaluation.aux
+A level-1 auxiliary file: 5-*-Conclusion.aux
+The style file: plain.bst
+Database file #1: Thesis.bib
+Warning--empty journal in Bilar2007
+Warning--empty journal in Brumley2010
+Warning--empty journal in Preda2007
+You've used 6 entries,
+            2118 wiz_defined-function locations,
+            535 strings with 4768 characters,
+and the built_in function-call counts, 1543 in all, are:
+= -- 135
+> -- 80
+< -- 0
++ -- 33
+- -- 26
+* -- 80
+:= -- 278
+add.period$ -- 18
+call.type$ -- 6
+change.case$ -- 31
+chr.to.int$ -- 0
+cite$ -- 9
+duplicate$ -- 66
+empty$ -- 130
+format.name$ -- 26
+if$ -- 313
+int.to.chr$ -- 0
+int.to.str$ -- 6
+missing$ -- 5
+newline$ -- 32
+num.names$ -- 12
+pop$ -- 49
+preamble$ -- 1
+purify$ -- 25
+quote$ -- 0
+skip$ -- 44
+stack$ -- 0
+substring$ -- 31
+swap$ -- 4
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 24
+warning$ -- 3
+while$ -- 12
+width$ -- 7
+write$ -- 57
+(There were 3 warnings)
